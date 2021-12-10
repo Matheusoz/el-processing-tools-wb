@@ -16,4 +16,26 @@ cleaning_config:
                 - TIME
                 - PERCENT
                 - MONEY
-            fragment
+            fragmented_token_max_len: 5
+            languages:
+                - {lang: en, score: 0.98}
+            max_token_length: 50
+            min_token_length: 3
+            pos_tags:
+                - ADJ
+                - ADV
+                - NOUN
+                - VERB
+
+    spell_checker:
+        lang: en_US
+        text: null
+        tokenize: null
+        chunkers: null
+        filters: null
+
+    respeller:
+        dictionary_file: null
+        spell_threshold: 0.25
+        allow_proper: True
+        spell_
