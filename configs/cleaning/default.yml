@@ -38,4 +38,11 @@ cleaning_config:
         dictionary_file: null
         spell_threshold: 0.25
         allow_proper: True
-        spell_
+        spell_cache: null
+        infer_correct_words:
+            return_tokens_as_list: True
+            infer_correct_word_params:
+                sim_thresh: 0.0
+                print_log: False
+                min_len: 3
+                use_suggest_score: True
