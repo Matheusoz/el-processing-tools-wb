@@ -8,4 +8,22 @@
         "sub-region": "Southern Asia",
         "intermediate-region": "",
         "region-code": "142",
-        "su
+        "sub-region-code": "034",
+        "intermediate-region-code": ""
+    },
+    "ALA": {
+        "name": "\u00c5land Islands",
+        "alpha-2": "AX",
+        "country-code": 248,
+        "iso_3166-2": "ISO 3166-2:AX",
+        "region": "Europe",
+        "sub-region": "Northern Europe",
+        "intermediate-region": "",
+        "region-code": "150",
+        "sub-region-code": "154",
+        "intermediate-region-code": ""
+    },
+    "ALB": {
+        "name": "Albania",
+        "alpha-2": "AL",
+        "country-cod
