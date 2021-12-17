@@ -43,4 +43,23 @@
         "region": "Africa",
         "sub-region": "Northern Africa",
         "intermediate-region": "",
-     
+        "region-code": "002",
+        "sub-region-code": "015",
+        "intermediate-region-code": ""
+    },
+    "ASM": {
+        "name": "American Samoa",
+        "alpha-2": "AS",
+        "country-code": 16,
+        "iso_3166-2": "ISO 3166-2:AS",
+        "region": "Oceania",
+        "sub-region": "Polynesia",
+        "intermediate-region": "",
+        "region-code": "009",
+        "sub-region-code": "061",
+        "intermediate-region-code": ""
+    },
+    "AND": {
+        "name": "Andorra",
+        "alpha-2": "AD",
+        "country-
