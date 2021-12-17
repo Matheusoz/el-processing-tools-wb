@@ -62,4 +62,20 @@
     "AND": {
         "name": "Andorra",
         "alpha-2": "AD",
-        "country-
+        "country-code": 20,
+        "iso_3166-2": "ISO 3166-2:AD",
+        "region": "Europe",
+        "sub-region": "Southern Europe",
+        "intermediate-region": "",
+        "region-code": "150",
+        "sub-region-code": "039",
+        "intermediate-region-code": ""
+    },
+    "AGO": {
+        "name": "Angola",
+        "alpha-2": "AO",
+        "country-code": 24,
+        "iso_3166-2": "ISO 3166-2:AO",
+        "region": "Africa",
+        "sub-region": "Sub-Saharan Africa",
+        "intermediate-region": "Mid
