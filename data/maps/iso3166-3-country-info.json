@@ -78,4 +78,21 @@
         "iso_3166-2": "ISO 3166-2:AO",
         "region": "Africa",
         "sub-region": "Sub-Saharan Africa",
-        "intermediate-region": "Mid
+        "intermediate-region": "Middle Africa",
+        "region-code": "002",
+        "sub-region-code": "202",
+        "intermediate-region-code": "017"
+    },
+    "AIA": {
+        "name": "Anguilla",
+        "alpha-2": "AI",
+        "country-code": 660,
+        "iso_3166-2": "ISO 3166-2:AI",
+        "region": "Americas",
+        "sub-region": "Latin America and the Caribbean",
+        "intermediate-region": "Caribbean",
+        "region-code": "019",
+        "sub-region-code": "419",
+        "intermediate-region-code": "029"
+    },
+   
