@@ -95,4 +95,22 @@
         "sub-region-code": "419",
         "intermediate-region-code": "029"
     },
-   
+    "ATA": {
+        "name": "Antarctica",
+        "alpha-2": "AQ",
+        "country-code": 10,
+        "iso_3166-2": "ISO 3166-2:AQ",
+        "region": "",
+        "sub-region": "",
+        "intermediate-region": "",
+        "region-code": "",
+        "sub-region-code": "",
+        "intermediate-region-code": ""
+    },
+    "ATG": {
+        "name": "Antigua and Barbuda",
+        "alpha-2": "AG",
+        "country-code": 28,
+        "iso_3166-2": "ISO 3166-2:AG",
+        "region": "Americas",
+        "sub-region": "Latin America and the 
