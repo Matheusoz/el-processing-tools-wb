@@ -128,4 +128,23 @@
         "sub-region": "Latin America and the Caribbean",
         "intermediate-region": "South America",
         "region-code": "019",
-        "sub-region-code": 
+        "sub-region-code": "419",
+        "intermediate-region-code": "005"
+    },
+    "ARM": {
+        "name": "Armenia",
+        "alpha-2": "AM",
+        "country-code": 51,
+        "iso_3166-2": "ISO 3166-2:AM",
+        "region": "Asia",
+        "sub-region": "Western Asia",
+        "intermediate-region": "",
+        "region-code": "142",
+        "sub-region-code": "145",
+        "intermediate-region-code": ""
+    },
+    "ABW": {
+        "name": "Aruba",
+        "alpha-2": "AW",
+        "country-code": 533,
+      
