@@ -162,4 +162,22 @@
         "iso_3166-2": "ISO 3166-2:AU",
         "region": "Oceania",
         "sub-region": "Australia and New Zealand",
-        "intermedia
+        "intermediate-region": "",
+        "region-code": "009",
+        "sub-region-code": "053",
+        "intermediate-region-code": ""
+    },
+    "AUT": {
+        "name": "Austria",
+        "alpha-2": "AT",
+        "country-code": 40,
+        "iso_3166-2": "ISO 3166-2:AT",
+        "region": "Europe",
+        "sub-region": "Western Europe",
+        "intermediate-region": "",
+        "region-code": "150",
+        "sub-region-code": "155",
+        "intermediate-region-code": ""
+    },
+    "AZE": {
+        "name
