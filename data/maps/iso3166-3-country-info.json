@@ -147,4 +147,19 @@
         "name": "Aruba",
         "alpha-2": "AW",
         "country-code": 533,
-      
+        "iso_3166-2": "ISO 3166-2:AW",
+        "region": "Americas",
+        "sub-region": "Latin America and the Caribbean",
+        "intermediate-region": "Caribbean",
+        "region-code": "019",
+        "sub-region-code": "419",
+        "intermediate-region-code": "029"
+    },
+    "AUS": {
+        "name": "Australia",
+        "alpha-2": "AU",
+        "country-code": 36,
+        "iso_3166-2": "ISO 3166-2:AU",
+        "region": "Oceania",
+        "sub-region": "Australia and New Zealand",
+        "intermedia
