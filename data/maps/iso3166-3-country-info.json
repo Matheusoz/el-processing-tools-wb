@@ -180,4 +180,21 @@
         "intermediate-region-code": ""
     },
     "AZE": {
-        "name
+        "name": "Azerbaijan",
+        "alpha-2": "AZ",
+        "country-code": 31,
+        "iso_3166-2": "ISO 3166-2:AZ",
+        "region": "Asia",
+        "sub-region": "Western Asia",
+        "intermediate-region": "",
+        "region-code": "142",
+        "sub-region-code": "145",
+        "intermediate-region-code": ""
+    },
+    "BHS": {
+        "name": "Bahamas",
+        "alpha-2": "BS",
+        "country-code": 44,
+        "iso_3166-2": "ISO 3166-2:BS",
+        "region": "Americas",
+        "sub-region": "Latin Ame
