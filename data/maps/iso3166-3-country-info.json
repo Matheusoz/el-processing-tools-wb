@@ -197,4 +197,22 @@
         "country-code": 44,
         "iso_3166-2": "ISO 3166-2:BS",
         "region": "Americas",
-        "sub-region": "Latin Ame
+        "sub-region": "Latin America and the Caribbean",
+        "intermediate-region": "Caribbean",
+        "region-code": "019",
+        "sub-region-code": "419",
+        "intermediate-region-code": "029"
+    },
+    "BHR": {
+        "name": "Bahrain",
+        "alpha-2": "BH",
+        "country-code": 48,
+        "iso_3166-2": "ISO 3166-2:BH",
+        "region": "Asia",
+        "sub-region": "Western Asia",
+        "intermediate-region": "",
+        "region-code": "142",
+        "sub-region-code": "145",
+        "intermediate-region-code": ""
+    },
+    "BGD":
