@@ -233,4 +233,19 @@
         "country-code": 52,
         "iso_3166-2": "ISO 3166-2:BB",
         "region": "Americas",
-        "sub-re
+        "sub-region": "Latin America and the Caribbean",
+        "intermediate-region": "Caribbean",
+        "region-code": "019",
+        "sub-region-code": "419",
+        "intermediate-region-code": "029"
+    },
+    "BLR": {
+        "name": "Belarus",
+        "alpha-2": "BY",
+        "country-code": 112,
+        "iso_3166-2": "ISO 3166-2:BY",
+        "region": "Europe",
+        "sub-region": "Eastern Europe",
+        "intermediate-region": "",
+        "region-code": "150",
+        "sub-region
