@@ -248,4 +248,23 @@
         "sub-region": "Eastern Europe",
         "intermediate-region": "",
         "region-code": "150",
-        "sub-region
+        "sub-region-code": "151",
+        "intermediate-region-code": ""
+    },
+    "BEL": {
+        "name": "Belgium",
+        "alpha-2": "BE",
+        "country-code": 56,
+        "iso_3166-2": "ISO 3166-2:BE",
+        "region": "Europe",
+        "sub-region": "Western Europe",
+        "intermediate-region": "",
+        "region-code": "150",
+        "sub-region-code": "155",
+        "intermediate-region-code": ""
+    },
+    "BLZ": {
+        "name": "Belize",
+        "alpha-2": "BZ",
+        "country-code": 84,
+        "iso_3166-2": "ISO 3166-2
