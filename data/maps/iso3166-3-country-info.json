@@ -215,4 +215,22 @@
         "sub-region-code": "145",
         "intermediate-region-code": ""
     },
-    "BGD":
+    "BGD": {
+        "name": "Bangladesh",
+        "alpha-2": "BD",
+        "country-code": 50,
+        "iso_3166-2": "ISO 3166-2:BD",
+        "region": "Asia",
+        "sub-region": "Southern Asia",
+        "intermediate-region": "",
+        "region-code": "142",
+        "sub-region-code": "034",
+        "intermediate-region-code": ""
+    },
+    "BRB": {
+        "name": "Barbados",
+        "alpha-2": "BB",
+        "country-code": 52,
+        "iso_3166-2": "ISO 3166-2:BB",
+        "region": "Americas",
+        "sub-re
