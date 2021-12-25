@@ -267,4 +267,19 @@
         "name": "Belize",
         "alpha-2": "BZ",
         "country-code": 84,
-        "iso_3166-2": "ISO 3166-2
+        "iso_3166-2": "ISO 3166-2:BZ",
+        "region": "Americas",
+        "sub-region": "Latin America and the Caribbean",
+        "intermediate-region": "Central America",
+        "region-code": "019",
+        "sub-region-code": "419",
+        "intermediate-region-code": "013"
+    },
+    "BEN": {
+        "name": "Benin",
+        "alpha-2": "BJ",
+        "country-code": 204,
+        "iso_3166-2": "ISO 3166-2:BJ",
+        "region": "Africa",
+        "sub-region": "Sub-Saharan Africa",
+        "intermediate-region": "Wes
