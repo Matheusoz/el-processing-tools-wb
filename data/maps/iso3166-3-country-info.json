@@ -282,4 +282,22 @@
         "iso_3166-2": "ISO 3166-2:BJ",
         "region": "Africa",
         "sub-region": "Sub-Saharan Africa",
-        "intermediate-region": "Wes
+        "intermediate-region": "Western Africa",
+        "region-code": "002",
+        "sub-region-code": "202",
+        "intermediate-region-code": "011"
+    },
+    "BMU": {
+        "name": "Bermuda",
+        "alpha-2": "BM",
+        "country-code": 60,
+        "iso_3166-2": "ISO 3166-2:BM",
+        "region": "Americas",
+        "sub-region": "Northern America",
+        "intermediate-region": "",
+        "region-code": "019",
+        "sub-region-code": "021",
+        "intermediate-region-code": ""
+    },
+    "BTN": {
+        "name": "
