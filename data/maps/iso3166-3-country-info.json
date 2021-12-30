@@ -317,4 +317,18 @@
         "country-code": 68,
         "iso_3166-2": "ISO 3166-2:BO",
         "region": "Americas",
-        "sub-re
+        "sub-region": "Latin America and the Caribbean",
+        "intermediate-region": "South America",
+        "region-code": "019",
+        "sub-region-code": "419",
+        "intermediate-region-code": "005"
+    },
+    "BES": {
+        "name": "Bonaire, Sint Eustatius and Saba",
+        "alpha-2": "BQ",
+        "country-code": 535,
+        "iso_3166-2": "ISO 3166-2:BQ",
+        "region": "Americas",
+        "sub-region": "Latin America and the Caribbean",
+        "intermediate-region": "Caribbean",
+        "region-code": "0
