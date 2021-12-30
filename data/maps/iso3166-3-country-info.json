@@ -300,4 +300,21 @@
         "intermediate-region-code": ""
     },
     "BTN": {
-        "name": "
+        "name": "Bhutan",
+        "alpha-2": "BT",
+        "country-code": 64,
+        "iso_3166-2": "ISO 3166-2:BT",
+        "region": "Asia",
+        "sub-region": "Southern Asia",
+        "intermediate-region": "",
+        "region-code": "142",
+        "sub-region-code": "034",
+        "intermediate-region-code": ""
+    },
+    "BOL": {
+        "name": "Bolivia (Plurinational State of)",
+        "alpha-2": "BO",
+        "country-code": 68,
+        "iso_3166-2": "ISO 3166-2:BO",
+        "region": "Americas",
+        "sub-re
