@@ -331,4 +331,22 @@
         "region": "Americas",
         "sub-region": "Latin America and the Caribbean",
         "intermediate-region": "Caribbean",
-        "region-code": "0
+        "region-code": "019",
+        "sub-region-code": "419",
+        "intermediate-region-code": "029"
+    },
+    "BIH": {
+        "name": "Bosnia and Herzegovina",
+        "alpha-2": "BA",
+        "country-code": 70,
+        "iso_3166-2": "ISO 3166-2:BA",
+        "region": "Europe",
+        "sub-region": "Southern Europe",
+        "intermediate-region": "",
+        "region-code": "150",
+        "sub-region-code": "039",
+        "intermediate-region-code": ""
+    },
+    "BWA": {
+        "name": "Botswana",
+     
