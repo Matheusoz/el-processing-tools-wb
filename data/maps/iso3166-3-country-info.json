@@ -349,4 +349,21 @@
     },
     "BWA": {
         "name": "Botswana",
-     
+        "alpha-2": "BW",
+        "country-code": 72,
+        "iso_3166-2": "ISO 3166-2:BW",
+        "region": "Africa",
+        "sub-region": "Sub-Saharan Africa",
+        "intermediate-region": "Southern Africa",
+        "region-code": "002",
+        "sub-region-code": "202",
+        "intermediate-region-code": "018"
+    },
+    "BVT": {
+        "name": "Bouvet Island",
+        "alpha-2": "BV",
+        "country-code": 74,
+        "iso_3166-2": "ISO 3166-2:BV",
+        "region": "Americas",
+        "sub-region": "Latin America and the Caribbean",
+      
