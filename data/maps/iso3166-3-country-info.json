@@ -434,4 +434,20 @@
     "BDI": {
         "name": "Burundi",
         "alpha-2": "BI",
-        
+        "country-code": 108,
+        "iso_3166-2": "ISO 3166-2:BI",
+        "region": "Africa",
+        "sub-region": "Sub-Saharan Africa",
+        "intermediate-region": "Eastern Africa",
+        "region-code": "002",
+        "sub-region-code": "202",
+        "intermediate-region-code": "014"
+    },
+    "CPV": {
+        "name": "Cabo Verde",
+        "alpha-2": "CV",
+        "country-code": 132,
+        "iso_3166-2": "ISO 3166-2:CV",
+        "region": "Africa",
+        "sub-region": "Sub-Saharan Africa",
+        "intermediate-region": "Wes
