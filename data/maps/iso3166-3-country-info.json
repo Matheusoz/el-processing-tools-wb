@@ -381,4 +381,22 @@
         "intermediate-region": "South America",
         "region-code": "019",
         "sub-region-code": "419",
-        "intermedia
+        "intermediate-region-code": "005"
+    },
+    "IOT": {
+        "name": "British Indian Ocean Territory",
+        "alpha-2": "IO",
+        "country-code": 86,
+        "iso_3166-2": "ISO 3166-2:IO",
+        "region": "Africa",
+        "sub-region": "Sub-Saharan Africa",
+        "intermediate-region": "Eastern Africa",
+        "region-code": "002",
+        "sub-region-code": "202",
+        "intermediate-region-code": "014"
+    },
+    "BRN": {
+        "name": "Brunei Darussalam",
+        "alpha-2": "BN",
+        "country-code": 96,
+        "iso_316
