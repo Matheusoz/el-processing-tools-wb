@@ -399,4 +399,21 @@
         "name": "Brunei Darussalam",
         "alpha-2": "BN",
         "country-code": 96,
-        "iso_316
+        "iso_3166-2": "ISO 3166-2:BN",
+        "region": "Asia",
+        "sub-region": "South-eastern Asia",
+        "intermediate-region": "",
+        "region-code": "142",
+        "sub-region-code": "035",
+        "intermediate-region-code": ""
+    },
+    "BGR": {
+        "name": "Bulgaria",
+        "alpha-2": "BG",
+        "country-code": 100,
+        "iso_3166-2": "ISO 3166-2:BG",
+        "region": "Europe",
+        "sub-region": "Eastern Europe",
+        "intermediate-region": "",
+        "region-code": "150",
+        "sub-region-code": 
