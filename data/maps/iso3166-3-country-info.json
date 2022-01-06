@@ -450,4 +450,22 @@
         "iso_3166-2": "ISO 3166-2:CV",
         "region": "Africa",
         "sub-region": "Sub-Saharan Africa",
-        "intermediate-region": "Wes
+        "intermediate-region": "Western Africa",
+        "region-code": "002",
+        "sub-region-code": "202",
+        "intermediate-region-code": "011"
+    },
+    "KHM": {
+        "name": "Cambodia",
+        "alpha-2": "KH",
+        "country-code": 116,
+        "iso_3166-2": "ISO 3166-2:KH",
+        "region": "Asia",
+        "sub-region": "South-eastern Asia",
+        "intermediate-region": "",
+        "region-code": "142",
+        "sub-region-code": "035",
+        "intermediate-region-code": ""
+    },
+    "CMR": {
+ 
