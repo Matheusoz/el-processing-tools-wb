@@ -468,4 +468,20 @@
         "intermediate-region-code": ""
     },
     "CMR": {
- 
+        "name": "Cameroon",
+        "alpha-2": "CM",
+        "country-code": 120,
+        "iso_3166-2": "ISO 3166-2:CM",
+        "region": "Africa",
+        "sub-region": "Sub-Saharan Africa",
+        "intermediate-region": "Middle Africa",
+        "region-code": "002",
+        "sub-region-code": "202",
+        "intermediate-region-code": "017"
+    },
+    "CAN": {
+        "name": "Canada",
+        "alpha-2": "CA",
+        "country-code": 124,
+        "iso_3166-2": "ISO 3166-2:CA",
+        "region": "Amer
