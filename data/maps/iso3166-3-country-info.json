@@ -484,4 +484,19 @@
         "alpha-2": "CA",
         "country-code": 124,
         "iso_3166-2": "ISO 3166-2:CA",
-        "region": "Amer
+        "region": "Americas",
+        "sub-region": "Northern America",
+        "intermediate-region": "",
+        "region-code": "019",
+        "sub-region-code": "021",
+        "intermediate-region-code": ""
+    },
+    "CYM": {
+        "name": "Cayman Islands",
+        "alpha-2": "KY",
+        "country-code": 136,
+        "iso_3166-2": "ISO 3166-2:KY",
+        "region": "Americas",
+        "sub-region": "Latin America and the Caribbean",
+        "intermediate-region": "Caribbean",
+      
