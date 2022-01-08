@@ -515,3 +515,21 @@
         "sub-region-code": "202",
         "intermediate-region-code": "017"
     },
+    "TCD": {
+        "name": "Chad",
+        "alpha-2": "TD",
+        "country-code": 148,
+        "iso_3166-2": "ISO 3166-2:TD",
+        "region": "Africa",
+        "sub-region": "Sub-Saharan Africa",
+        "intermediate-region": "Middle Africa",
+        "region-code": "002",
+        "sub-region-code": "202",
+        "intermediate-region-code": "017"
+    },
+    "CHL": {
+        "name": "Chile",
+        "alpha-2": "CL",
+        "country-code": 152,
+        "iso_3166-2": "ISO 3166-2:CL",
+      
