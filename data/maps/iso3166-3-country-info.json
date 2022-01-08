@@ -499,4 +499,19 @@
         "region": "Americas",
         "sub-region": "Latin America and the Caribbean",
         "intermediate-region": "Caribbean",
-      
+        "region-code": "019",
+        "sub-region-code": "419",
+        "intermediate-region-code": "029"
+    },
+    "CAF": {
+        "name": "Central African Republic",
+        "alpha-2": "CF",
+        "country-code": 140,
+        "iso_3166-2": "ISO 3166-2:CF",
+        "region": "Africa",
+        "sub-region": "Sub-Saharan Africa",
+        "intermediate-region": "Middle Africa",
+        "region-code": "002",
+        "sub-region-code": "202",
+        "intermediate-region-code": "017"
+    },
