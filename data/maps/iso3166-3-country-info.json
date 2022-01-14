@@ -613,4 +613,18 @@
     },
     "COD": {
         "name": "Congo, Democratic Republic of the",
-        "a
+        "alpha-2": "CD",
+        "country-code": 180,
+        "iso_3166-2": "ISO 3166-2:CD",
+        "region": "Africa",
+        "sub-region": "Sub-Saharan Africa",
+        "intermediate-region": "Middle Africa",
+        "region-code": "002",
+        "sub-region-code": "202",
+        "intermediate-region-code": "017"
+    },
+    "COK": {
+        "name": "Cook Islands",
+        "alpha-2": "CK",
+        "country-code": 184,
+        "iso_3166-2": "ISO 3166-2:CK",
