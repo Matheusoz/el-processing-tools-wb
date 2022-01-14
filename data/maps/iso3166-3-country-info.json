@@ -628,3 +628,20 @@
         "alpha-2": "CK",
         "country-code": 184,
         "iso_3166-2": "ISO 3166-2:CK",
+        "region": "Oceania",
+        "sub-region": "Polynesia",
+        "intermediate-region": "",
+        "region-code": "009",
+        "sub-region-code": "061",
+        "intermediate-region-code": ""
+    },
+    "CRI": {
+        "name": "Costa Rica",
+        "alpha-2": "CR",
+        "country-code": 188,
+        "iso_3166-2": "ISO 3166-2:CR",
+        "region": "Americas",
+        "sub-region": "Latin America and the Caribbean",
+        "intermediate-region": "Central America",
+        "region-code": "019",
+       
