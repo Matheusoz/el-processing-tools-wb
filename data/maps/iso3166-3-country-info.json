@@ -596,4 +596,21 @@
         "sub-region": "Sub-Saharan Africa",
         "intermediate-region": "Eastern Africa",
         "region-code": "002",
-        
+        "sub-region-code": "202",
+        "intermediate-region-code": "014"
+    },
+    "COG": {
+        "name": "Congo",
+        "alpha-2": "CG",
+        "country-code": 178,
+        "iso_3166-2": "ISO 3166-2:CG",
+        "region": "Africa",
+        "sub-region": "Sub-Saharan Africa",
+        "intermediate-region": "Middle Africa",
+        "region-code": "002",
+        "sub-region-code": "202",
+        "intermediate-region-code": "017"
+    },
+    "COD": {
+        "name": "Congo, Democratic Republic of the",
+        "a
