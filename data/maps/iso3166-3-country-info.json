@@ -566,4 +566,20 @@
     "CCK": {
         "name": "Cocos (Keeling) Islands",
         "alpha-2": "CC",
-        "country-co
+        "country-code": 166,
+        "iso_3166-2": "ISO 3166-2:CC",
+        "region": "Oceania",
+        "sub-region": "Australia and New Zealand",
+        "intermediate-region": "",
+        "region-code": "009",
+        "sub-region-code": "053",
+        "intermediate-region-code": ""
+    },
+    "COL": {
+        "name": "Colombia",
+        "alpha-2": "CO",
+        "country-code": 170,
+        "iso_3166-2": "ISO 3166-2:CO",
+        "region": "Americas",
+        "sub-region": "Latin America and the Caribbean",
+        "int
