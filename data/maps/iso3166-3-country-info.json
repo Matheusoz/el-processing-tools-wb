@@ -582,4 +582,18 @@
         "iso_3166-2": "ISO 3166-2:CO",
         "region": "Americas",
         "sub-region": "Latin America and the Caribbean",
-        "int
+        "intermediate-region": "South America",
+        "region-code": "019",
+        "sub-region-code": "419",
+        "intermediate-region-code": "005"
+    },
+    "COM": {
+        "name": "Comoros",
+        "alpha-2": "KM",
+        "country-code": 174,
+        "iso_3166-2": "ISO 3166-2:KM",
+        "region": "Africa",
+        "sub-region": "Sub-Saharan Africa",
+        "intermediate-region": "Eastern Africa",
+        "region-code": "002",
+        
