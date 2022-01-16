@@ -691,4 +691,22 @@
         "region": "Americas",
         "sub-region": "Latin America and the Caribbean",
         "intermediate-region": "Caribbean",
-        "reg
+        "region-code": "019",
+        "sub-region-code": "419",
+        "intermediate-region-code": "029"
+    },
+    "CYP": {
+        "name": "Cyprus",
+        "alpha-2": "CY",
+        "country-code": 196,
+        "iso_3166-2": "ISO 3166-2:CY",
+        "region": "Asia",
+        "sub-region": "Western Asia",
+        "intermediate-region": "",
+        "region-code": "142",
+        "sub-region-code": "145",
+        "intermediate-region-code": ""
+    },
+    "CZE": {
+        "name": "Czechia",
+       
