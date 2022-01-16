@@ -726,4 +726,19 @@
         "iso_3166-2": "ISO 3166-2:DK",
         "region": "Europe",
         "sub-region": "Northern Europe",
-  
+        "intermediate-region": "",
+        "region-code": "150",
+        "sub-region-code": "154",
+        "intermediate-region-code": ""
+    },
+    "DJI": {
+        "name": "Djibouti",
+        "alpha-2": "DJ",
+        "country-code": 262,
+        "iso_3166-2": "ISO 3166-2:DJ",
+        "region": "Africa",
+        "sub-region": "Sub-Saharan Africa",
+        "intermediate-region": "Eastern Africa",
+        "region-code": "002",
+        "sub-region-code": "202",
+        "intermediate-re
