@@ -854,4 +854,18 @@
     "ETH": {
         "name": "Ethiopia",
         "alpha-2": "ET",
-        "country-c
+        "country-code": 231,
+        "iso_3166-2": "ISO 3166-2:ET",
+        "region": "Africa",
+        "sub-region": "Sub-Saharan Africa",
+        "intermediate-region": "Eastern Africa",
+        "region-code": "002",
+        "sub-region-code": "202",
+        "intermediate-region-code": "014"
+    },
+    "FLK": {
+        "name": "Falkland Islands (Malvinas)",
+        "alpha-2": "FK",
+        "country-code": 238,
+        "iso_3166-2": "ISO 3166-2:FK",
+        "region": "Americas",
