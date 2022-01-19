@@ -837,4 +837,21 @@
         "intermediate-region": "",
         "region-code": "150",
         "sub-region-code": "154",
-        "intermediate-regio
+        "intermediate-region-code": ""
+    },
+    "SWZ": {
+        "name": "Eswatini",
+        "alpha-2": "SZ",
+        "country-code": 748,
+        "iso_3166-2": "ISO 3166-2:SZ",
+        "region": "Africa",
+        "sub-region": "Sub-Saharan Africa",
+        "intermediate-region": "Southern Africa",
+        "region-code": "002",
+        "sub-region-code": "202",
+        "intermediate-region-code": "018"
+    },
+    "ETH": {
+        "name": "Ethiopia",
+        "alpha-2": "ET",
+        "country-c
