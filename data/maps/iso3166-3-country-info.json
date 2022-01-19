@@ -759,3 +759,18 @@
         "name": "Dominican Republic",
         "alpha-2": "DO",
         "country-code": 214,
+        "iso_3166-2": "ISO 3166-2:DO",
+        "region": "Americas",
+        "sub-region": "Latin America and the Caribbean",
+        "intermediate-region": "Caribbean",
+        "region-code": "019",
+        "sub-region-code": "419",
+        "intermediate-region-code": "029"
+    },
+    "ECU": {
+        "name": "Ecuador",
+        "alpha-2": "EC",
+        "country-code": 218,
+        "iso_3166-2": "ISO 3166-2:EC",
+        "region": "Americas",
+        "sub-region": "Latin America and the Caribbe
