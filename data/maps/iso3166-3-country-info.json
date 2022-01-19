@@ -804,4 +804,21 @@
         "intermediate-region-code": "013"
     },
     "GNQ": {
-        "name": "Equatorial Guin
+        "name": "Equatorial Guinea",
+        "alpha-2": "GQ",
+        "country-code": 226,
+        "iso_3166-2": "ISO 3166-2:GQ",
+        "region": "Africa",
+        "sub-region": "Sub-Saharan Africa",
+        "intermediate-region": "Middle Africa",
+        "region-code": "002",
+        "sub-region-code": "202",
+        "intermediate-region-code": "017"
+    },
+    "ERI": {
+        "name": "Eritrea",
+        "alpha-2": "ER",
+        "country-code": 232,
+        "iso_3166-2": "ISO 3166-2:ER",
+        "region": "Africa",
+   
