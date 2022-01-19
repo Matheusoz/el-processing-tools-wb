@@ -821,4 +821,20 @@
         "country-code": 232,
         "iso_3166-2": "ISO 3166-2:ER",
         "region": "Africa",
-   
+        "sub-region": "Sub-Saharan Africa",
+        "intermediate-region": "Eastern Africa",
+        "region-code": "002",
+        "sub-region-code": "202",
+        "intermediate-region-code": "014"
+    },
+    "EST": {
+        "name": "Estonia",
+        "alpha-2": "EE",
+        "country-code": 233,
+        "iso_3166-2": "ISO 3166-2:EE",
+        "region": "Europe",
+        "sub-region": "Northern Europe",
+        "intermediate-region": "",
+        "region-code": "150",
+        "sub-region-code": "154",
+        "intermediate-regio
