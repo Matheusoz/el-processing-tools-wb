@@ -1008,3 +1008,20 @@
         "intermediate-region-code": ""
     },
     "GHA": {
+        "name": "Ghana",
+        "alpha-2": "GH",
+        "country-code": 288,
+        "iso_3166-2": "ISO 3166-2:GH",
+        "region": "Africa",
+        "sub-region": "Sub-Saharan Africa",
+        "intermediate-region": "Western Africa",
+        "region-code": "002",
+        "sub-region-code": "202",
+        "intermediate-region-code": "011"
+    },
+    "GIB": {
+        "name": "Gibraltar",
+        "alpha-2": "GI",
+        "country-code": 292,
+        "iso_3166-2": "ISO 3166-2:GI",
+        "regio
