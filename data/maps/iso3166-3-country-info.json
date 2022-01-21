@@ -921,4 +921,22 @@
         "intermediate-region": "",
         "region-code": "150",
         "sub-region-code": "155",
-        "int
+        "intermediate-region-code": ""
+    },
+    "GUF": {
+        "name": "French Guiana",
+        "alpha-2": "GF",
+        "country-code": 254,
+        "iso_3166-2": "ISO 3166-2:GF",
+        "region": "Americas",
+        "sub-region": "Latin America and the Caribbean",
+        "intermediate-region": "South America",
+        "region-code": "019",
+        "sub-region-code": "419",
+        "intermediate-region-code": "005"
+    },
+    "PYF": {
+        "name": "French Polynesia",
+        "alpha-2": "PF",
+        "country-code": 258,
+       
