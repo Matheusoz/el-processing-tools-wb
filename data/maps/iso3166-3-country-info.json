@@ -1024,4 +1024,20 @@
         "alpha-2": "GI",
         "country-code": 292,
         "iso_3166-2": "ISO 3166-2:GI",
-        "regio
+        "region": "Europe",
+        "sub-region": "Southern Europe",
+        "intermediate-region": "",
+        "region-code": "150",
+        "sub-region-code": "039",
+        "intermediate-region-code": ""
+    },
+    "GRC": {
+        "name": "Greece",
+        "alpha-2": "GR",
+        "country-code": 300,
+        "iso_3166-2": "ISO 3166-2:GR",
+        "region": "Europe",
+        "sub-region": "Southern Europe",
+        "intermediate-region": "",
+        "region-code": "150",
+        "sub-region-code": "039",
