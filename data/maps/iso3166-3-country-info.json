@@ -939,4 +939,20 @@
         "name": "French Polynesia",
         "alpha-2": "PF",
         "country-code": 258,
-       
+        "iso_3166-2": "ISO 3166-2:PF",
+        "region": "Oceania",
+        "sub-region": "Polynesia",
+        "intermediate-region": "",
+        "region-code": "009",
+        "sub-region-code": "061",
+        "intermediate-region-code": ""
+    },
+    "ATF": {
+        "name": "French Southern Territories",
+        "alpha-2": "TF",
+        "country-code": 260,
+        "iso_3166-2": "ISO 3166-2:TF",
+        "region": "Africa",
+        "sub-region": "Sub-Saharan Africa",
+        "intermediate-region": "Eastern Africa",
+    
