@@ -971,3 +971,22 @@
         "sub-region-code": "202",
         "intermediate-region-code": "017"
     },
+    "GMB": {
+        "name": "Gambia",
+        "alpha-2": "GM",
+        "country-code": 270,
+        "iso_3166-2": "ISO 3166-2:GM",
+        "region": "Africa",
+        "sub-region": "Sub-Saharan Africa",
+        "intermediate-region": "Western Africa",
+        "region-code": "002",
+        "sub-region-code": "202",
+        "intermediate-region-code": "011"
+    },
+    "GEO": {
+        "name": "Georgia",
+        "alpha-2": "GE",
+        "country-code": 268,
+        "iso_3166-2": "ISO 3166-2:GE",
+        "region": "Asia",
+        "sub-region": "Wes
