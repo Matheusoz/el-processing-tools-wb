@@ -989,4 +989,22 @@
         "country-code": 268,
         "iso_3166-2": "ISO 3166-2:GE",
         "region": "Asia",
-        "sub-region": "Wes
+        "sub-region": "Western Asia",
+        "intermediate-region": "",
+        "region-code": "142",
+        "sub-region-code": "145",
+        "intermediate-region-code": ""
+    },
+    "DEU": {
+        "name": "Germany",
+        "alpha-2": "DE",
+        "country-code": 276,
+        "iso_3166-2": "ISO 3166-2:DE",
+        "region": "Europe",
+        "sub-region": "Western Europe",
+        "intermediate-region": "",
+        "region-code": "150",
+        "sub-region-code": "155",
+        "intermediate-region-code": ""
+    },
+    "GHA": {
