@@ -904,4 +904,21 @@
         "alpha-2": "FI",
         "country-code": 246,
         "iso_3166-2": "ISO 3166-2:FI",
-        "region": 
+        "region": "Europe",
+        "sub-region": "Northern Europe",
+        "intermediate-region": "",
+        "region-code": "150",
+        "sub-region-code": "154",
+        "intermediate-region-code": ""
+    },
+    "FRA": {
+        "name": "France",
+        "alpha-2": "FR",
+        "country-code": 250,
+        "iso_3166-2": "ISO 3166-2:FR",
+        "region": "Europe",
+        "sub-region": "Western Europe",
+        "intermediate-region": "",
+        "region-code": "150",
+        "sub-region-code": "155",
+        "int
