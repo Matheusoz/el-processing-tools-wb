@@ -884,4 +884,24 @@
         "sub-region": "Northern Europe",
         "intermediate-region": "",
         "region-code": "150",
-        "sub-region-code": "1
+        "sub-region-code": "154",
+        "intermediate-region-code": ""
+    },
+    "FJI": {
+        "name": "Fiji",
+        "alpha-2": "FJ",
+        "country-code": 242,
+        "iso_3166-2": "ISO 3166-2:FJ",
+        "region": "Oceania",
+        "sub-region": "Melanesia",
+        "intermediate-region": "",
+        "region-code": "009",
+        "sub-region-code": "054",
+        "intermediate-region-code": ""
+    },
+    "FIN": {
+        "name": "Finland",
+        "alpha-2": "FI",
+        "country-code": 246,
+        "iso_3166-2": "ISO 3166-2:FI",
+        "region": 
