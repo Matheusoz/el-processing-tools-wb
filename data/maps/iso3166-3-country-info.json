@@ -1059,4 +1059,20 @@
         "name": "Grenada",
         "alpha-2": "GD",
         "country-code": 308,
-        "iso_3166-2": "ISO 
+        "iso_3166-2": "ISO 3166-2:GD",
+        "region": "Americas",
+        "sub-region": "Latin America and the Caribbean",
+        "intermediate-region": "Caribbean",
+        "region-code": "019",
+        "sub-region-code": "419",
+        "intermediate-region-code": "029"
+    },
+    "GLP": {
+        "name": "Guadeloupe",
+        "alpha-2": "GP",
+        "country-code": 312,
+        "iso_3166-2": "ISO 3166-2:GP",
+        "region": "Americas",
+        "sub-region": "Latin America and the Caribbean",
+        "intermediate-region": "Caribbean",
+       
