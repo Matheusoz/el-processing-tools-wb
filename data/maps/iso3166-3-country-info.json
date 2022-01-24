@@ -1075,4 +1075,23 @@
         "region": "Americas",
         "sub-region": "Latin America and the Caribbean",
         "intermediate-region": "Caribbean",
-       
+        "region-code": "019",
+        "sub-region-code": "419",
+        "intermediate-region-code": "029"
+    },
+    "GUM": {
+        "name": "Guam",
+        "alpha-2": "GU",
+        "country-code": 316,
+        "iso_3166-2": "ISO 3166-2:GU",
+        "region": "Oceania",
+        "sub-region": "Micronesia",
+        "intermediate-region": "",
+        "region-code": "009",
+        "sub-region-code": "057",
+        "intermediate-region-code": ""
+    },
+    "GTM": {
+        "name": "Guatemala",
+        "alpha-2": "GT",
+        "country-code": 3
