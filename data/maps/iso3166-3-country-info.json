@@ -1041,3 +1041,22 @@
         "intermediate-region": "",
         "region-code": "150",
         "sub-region-code": "039",
+        "intermediate-region-code": ""
+    },
+    "GRL": {
+        "name": "Greenland",
+        "alpha-2": "GL",
+        "country-code": 304,
+        "iso_3166-2": "ISO 3166-2:GL",
+        "region": "Americas",
+        "sub-region": "Northern America",
+        "intermediate-region": "",
+        "region-code": "019",
+        "sub-region-code": "021",
+        "intermediate-region-code": ""
+    },
+    "GRD": {
+        "name": "Grenada",
+        "alpha-2": "GD",
+        "country-code": 308,
+        "iso_3166-2": "ISO 
