@@ -1094,4 +1094,19 @@
     "GTM": {
         "name": "Guatemala",
         "alpha-2": "GT",
-        "country-code": 3
+        "country-code": 320,
+        "iso_3166-2": "ISO 3166-2:GT",
+        "region": "Americas",
+        "sub-region": "Latin America and the Caribbean",
+        "intermediate-region": "Central America",
+        "region-code": "019",
+        "sub-region-code": "419",
+        "intermediate-region-code": "013"
+    },
+    "GGY": {
+        "name": "Guernsey",
+        "alpha-2": "GG",
+        "country-code": 831,
+        "iso_3166-2": "ISO 3166-2:GG",
+        "region": "Europe",
+        "sub-region": "Northern Europ
