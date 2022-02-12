@@ -1125,4 +1125,21 @@
         "intermediate-region": "Western Africa",
         "region-code": "002",
         "sub-region-code": "202",
-        "intermediate-regio
+        "intermediate-region-code": "011"
+    },
+    "GNB": {
+        "name": "Guinea-Bissau",
+        "alpha-2": "GW",
+        "country-code": 624,
+        "iso_3166-2": "ISO 3166-2:GW",
+        "region": "Africa",
+        "sub-region": "Sub-Saharan Africa",
+        "intermediate-region": "Western Africa",
+        "region-code": "002",
+        "sub-region-code": "202",
+        "intermediate-region-code": "011"
+    },
+    "GUY": {
+        "name": "Guyana",
+        "alpha-2": "GY",
+ 
