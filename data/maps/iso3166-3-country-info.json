@@ -1191,4 +1191,19 @@
         "name": "Honduras",
         "alpha-2": "HN",
         "country-code": 340,
-        "iso_3166-2": "ISO 
+        "iso_3166-2": "ISO 3166-2:HN",
+        "region": "Americas",
+        "sub-region": "Latin America and the Caribbean",
+        "intermediate-region": "Central America",
+        "region-code": "019",
+        "sub-region-code": "419",
+        "intermediate-region-code": "013"
+    },
+    "HKG": {
+        "name": "Hong Kong",
+        "alpha-2": "HK",
+        "country-code": 344,
+        "iso_3166-2": "ISO 3166-2:HK",
+        "region": "Asia",
+        "sub-region": "Eastern Asia",
+        "intermediate-region"
