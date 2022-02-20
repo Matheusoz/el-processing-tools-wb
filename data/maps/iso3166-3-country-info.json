@@ -1172,4 +1172,23 @@
         "sub-region": "Australia and New Zealand",
         "intermediate-region": "",
         "region-code": "009",
-        "sub-region-code": "05
+        "sub-region-code": "053",
+        "intermediate-region-code": ""
+    },
+    "VAT": {
+        "name": "Holy See",
+        "alpha-2": "VA",
+        "country-code": 336,
+        "iso_3166-2": "ISO 3166-2:VA",
+        "region": "Europe",
+        "sub-region": "Southern Europe",
+        "intermediate-region": "",
+        "region-code": "150",
+        "sub-region-code": "039",
+        "intermediate-region-code": ""
+    },
+    "HND": {
+        "name": "Honduras",
+        "alpha-2": "HN",
+        "country-code": 340,
+        "iso_3166-2": "ISO 
