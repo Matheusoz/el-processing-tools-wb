@@ -1157,4 +1157,19 @@
         "country-code": 332,
         "iso_3166-2": "ISO 3166-2:HT",
         "region": "Americas",
-        "sub-region": "Latin America and the Caribbean"
+        "sub-region": "Latin America and the Caribbean",
+        "intermediate-region": "Caribbean",
+        "region-code": "019",
+        "sub-region-code": "419",
+        "intermediate-region-code": "029"
+    },
+    "HMD": {
+        "name": "Heard Island and McDonald Islands",
+        "alpha-2": "HM",
+        "country-code": 334,
+        "iso_3166-2": "ISO 3166-2:HM",
+        "region": "Oceania",
+        "sub-region": "Australia and New Zealand",
+        "intermediate-region": "",
+        "region-code": "009",
+        "sub-region-code": "05
