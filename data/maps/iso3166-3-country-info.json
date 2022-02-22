@@ -1224,4 +1224,22 @@
         "intermediate-region-code": ""
     },
     "ISL": {
-        "name": "Ice
+        "name": "Iceland",
+        "alpha-2": "IS",
+        "country-code": 352,
+        "iso_3166-2": "ISO 3166-2:IS",
+        "region": "Europe",
+        "sub-region": "Northern Europe",
+        "intermediate-region": "",
+        "region-code": "150",
+        "sub-region-code": "154",
+        "intermediate-region-code": ""
+    },
+    "IND": {
+        "name": "India",
+        "alpha-2": "IN",
+        "country-code": 356,
+        "iso_3166-2": "ISO 3166-2:IN",
+        "region": "Asia",
+        "sub-region": "Southern Asia",
+      
