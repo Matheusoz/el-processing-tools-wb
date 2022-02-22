@@ -1242,4 +1242,21 @@
         "iso_3166-2": "ISO 3166-2:IN",
         "region": "Asia",
         "sub-region": "Southern Asia",
-      
+        "intermediate-region": "",
+        "region-code": "142",
+        "sub-region-code": "034",
+        "intermediate-region-code": ""
+    },
+    "IDN": {
+        "name": "Indonesia",
+        "alpha-2": "ID",
+        "country-code": 360,
+        "iso_3166-2": "ISO 3166-2:ID",
+        "region": "Asia",
+        "sub-region": "South-eastern Asia",
+        "intermediate-region": "",
+        "region-code": "142",
+        "sub-region-code": "035",
+        "intermediate-region-code": ""
+    },
+    "IRN": {
