@@ -1206,4 +1206,22 @@
         "iso_3166-2": "ISO 3166-2:HK",
         "region": "Asia",
         "sub-region": "Eastern Asia",
-        "intermediate-region"
+        "intermediate-region": "",
+        "region-code": "142",
+        "sub-region-code": "030",
+        "intermediate-region-code": ""
+    },
+    "HUN": {
+        "name": "Hungary",
+        "alpha-2": "HU",
+        "country-code": 348,
+        "iso_3166-2": "ISO 3166-2:HU",
+        "region": "Europe",
+        "sub-region": "Eastern Europe",
+        "intermediate-region": "",
+        "region-code": "150",
+        "sub-region-code": "151",
+        "intermediate-region-code": ""
+    },
+    "ISL": {
+        "name": "Ice
