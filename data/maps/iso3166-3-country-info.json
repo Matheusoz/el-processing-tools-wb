@@ -1296,4 +1296,21 @@
         "intermediate-region-code": ""
     },
     "IMN": {
-      
+        "name": "Isle of Man",
+        "alpha-2": "IM",
+        "country-code": 833,
+        "iso_3166-2": "ISO 3166-2:IM",
+        "region": "Europe",
+        "sub-region": "Northern Europe",
+        "intermediate-region": "",
+        "region-code": "150",
+        "sub-region-code": "154",
+        "intermediate-region-code": ""
+    },
+    "ISR": {
+        "name": "Israel",
+        "alpha-2": "IL",
+        "country-code": 376,
+        "iso_3166-2": "ISO 3166-2:IL",
+        "region": "Asia",
+        "sub
