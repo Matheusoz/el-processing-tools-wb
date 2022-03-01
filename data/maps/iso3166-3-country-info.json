@@ -1313,4 +1313,22 @@
         "country-code": 376,
         "iso_3166-2": "ISO 3166-2:IL",
         "region": "Asia",
-        "sub
+        "sub-region": "Western Asia",
+        "intermediate-region": "",
+        "region-code": "142",
+        "sub-region-code": "145",
+        "intermediate-region-code": ""
+    },
+    "ITA": {
+        "name": "Italy",
+        "alpha-2": "IT",
+        "country-code": 380,
+        "iso_3166-2": "ISO 3166-2:IT",
+        "region": "Europe",
+        "sub-region": "Southern Europe",
+        "intermediate-region": "",
+        "region-code": "150",
+        "sub-region-code": "039",
+        "intermediate-region-code": ""
+    },
+    
