@@ -1277,4 +1277,23 @@
         "country-code": 368,
         "iso_3166-2": "ISO 3166-2:IQ",
         "region": "Asia",
-        "sub-region": "W
+        "sub-region": "Western Asia",
+        "intermediate-region": "",
+        "region-code": "142",
+        "sub-region-code": "145",
+        "intermediate-region-code": ""
+    },
+    "IRL": {
+        "name": "Ireland",
+        "alpha-2": "IE",
+        "country-code": 372,
+        "iso_3166-2": "ISO 3166-2:IE",
+        "region": "Europe",
+        "sub-region": "Northern Europe",
+        "intermediate-region": "",
+        "region-code": "150",
+        "sub-region-code": "154",
+        "intermediate-region-code": ""
+    },
+    "IMN": {
+      
