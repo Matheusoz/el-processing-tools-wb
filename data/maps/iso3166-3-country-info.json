@@ -1365,4 +1365,24 @@
         "intermediate-region": "Channel Islands",
         "region-code": "150",
         "sub-region-code": "154",
-        "intermediate-region-co
+        "intermediate-region-code": "830"
+    },
+    "JOR": {
+        "name": "Jordan",
+        "alpha-2": "JO",
+        "country-code": 400,
+        "iso_3166-2": "ISO 3166-2:JO",
+        "region": "Asia",
+        "sub-region": "Western Asia",
+        "intermediate-region": "",
+        "region-code": "142",
+        "sub-region-code": "145",
+        "intermediate-region-code": ""
+    },
+    "KAZ": {
+        "name": "Kazakhstan",
+        "alpha-2": "KZ",
+        "country-code": 398,
+        "iso_3166-2": "ISO 3166-2:KZ",
+        "region": "Asia",
+        "sub-regi
