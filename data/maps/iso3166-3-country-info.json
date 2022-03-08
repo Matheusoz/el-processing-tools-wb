@@ -1418,4 +1418,21 @@
     "PRK": {
         "name": "Korea (Democratic People's Republic of)",
         "alpha-2": "KP",
-        "coun
+        "country-code": 408,
+        "iso_3166-2": "ISO 3166-2:KP",
+        "region": "Asia",
+        "sub-region": "Eastern Asia",
+        "intermediate-region": "",
+        "region-code": "142",
+        "sub-region-code": "030",
+        "intermediate-region-code": ""
+    },
+    "KOR": {
+        "name": "Korea, Republic of",
+        "alpha-2": "KR",
+        "country-code": 410,
+        "iso_3166-2": "ISO 3166-2:KR",
+        "region": "Asia",
+        "sub-region": "Eastern Asia",
+        "intermediate-region": "",
+        "r
