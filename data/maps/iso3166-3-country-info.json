@@ -1435,4 +1435,22 @@
         "region": "Asia",
         "sub-region": "Eastern Asia",
         "intermediate-region": "",
-        "r
+        "region-code": "142",
+        "sub-region-code": "030",
+        "intermediate-region-code": ""
+    },
+    "KWT": {
+        "name": "Kuwait",
+        "alpha-2": "KW",
+        "country-code": 414,
+        "iso_3166-2": "ISO 3166-2:KW",
+        "region": "Asia",
+        "sub-region": "Western Asia",
+        "intermediate-region": "",
+        "region-code": "142",
+        "sub-region-code": "145",
+        "intermediate-region-code": ""
+    },
+    "KGZ": {
+        "name": "Kyrgyzstan",
+        "a
