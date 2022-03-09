@@ -1453,4 +1453,20 @@
     },
     "KGZ": {
         "name": "Kyrgyzstan",
-        "a
+        "alpha-2": "KG",
+        "country-code": 417,
+        "iso_3166-2": "ISO 3166-2:KG",
+        "region": "Asia",
+        "sub-region": "Central Asia",
+        "intermediate-region": "",
+        "region-code": "142",
+        "sub-region-code": "143",
+        "intermediate-region-code": ""
+    },
+    "LAO": {
+        "name": "Lao People's Democratic Republic",
+        "alpha-2": "LA",
+        "country-code": 418,
+        "iso_3166-2": "ISO 3166-2:LA",
+        "region": "Asia",
+        "sub-region": "South-eastern Asia"
