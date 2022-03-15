@@ -1489,4 +1489,21 @@
     },
     "LBN": {
         "name": "Lebanon",
-      
+        "alpha-2": "LB",
+        "country-code": 422,
+        "iso_3166-2": "ISO 3166-2:LB",
+        "region": "Asia",
+        "sub-region": "Western Asia",
+        "intermediate-region": "",
+        "region-code": "142",
+        "sub-region-code": "145",
+        "intermediate-region-code": ""
+    },
+    "LSO": {
+        "name": "Lesotho",
+        "alpha-2": "LS",
+        "country-code": 426,
+        "iso_3166-2": "ISO 3166-2:LS",
+        "region": "Africa",
+        "sub-region": "Sub-Saharan Africa",
+   
