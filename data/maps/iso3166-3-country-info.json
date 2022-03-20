@@ -1539,4 +1539,20 @@
         "name": "Liechtenstein",
         "alpha-2": "LI",
         "country-code": 438,
-        "iso_3166-2": "ISO 3166-2:LI"
+        "iso_3166-2": "ISO 3166-2:LI",
+        "region": "Europe",
+        "sub-region": "Western Europe",
+        "intermediate-region": "",
+        "region-code": "150",
+        "sub-region-code": "155",
+        "intermediate-region-code": ""
+    },
+    "LTU": {
+        "name": "Lithuania",
+        "alpha-2": "LT",
+        "country-code": 440,
+        "iso_3166-2": "ISO 3166-2:LT",
+        "region": "Europe",
+        "sub-region": "Northern Europe",
+        "intermediate-region": "",
+        "region-code":
