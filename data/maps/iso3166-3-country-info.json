@@ -1520,4 +1520,23 @@
         "sub-region": "Sub-Saharan Africa",
         "intermediate-region": "Western Africa",
         "region-code": "002",
-        "sub-region-code": "
+        "sub-region-code": "202",
+        "intermediate-region-code": "011"
+    },
+    "LBY": {
+        "name": "Libya",
+        "alpha-2": "LY",
+        "country-code": 434,
+        "iso_3166-2": "ISO 3166-2:LY",
+        "region": "Africa",
+        "sub-region": "Northern Africa",
+        "intermediate-region": "",
+        "region-code": "002",
+        "sub-region-code": "015",
+        "intermediate-region-code": ""
+    },
+    "LIE": {
+        "name": "Liechtenstein",
+        "alpha-2": "LI",
+        "country-code": 438,
+        "iso_3166-2": "ISO 3166-2:LI"
