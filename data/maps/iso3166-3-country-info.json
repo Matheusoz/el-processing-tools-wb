@@ -1506,4 +1506,18 @@
         "iso_3166-2": "ISO 3166-2:LS",
         "region": "Africa",
         "sub-region": "Sub-Saharan Africa",
-   
+        "intermediate-region": "Southern Africa",
+        "region-code": "002",
+        "sub-region-code": "202",
+        "intermediate-region-code": "018"
+    },
+    "LBR": {
+        "name": "Liberia",
+        "alpha-2": "LR",
+        "country-code": 430,
+        "iso_3166-2": "ISO 3166-2:LR",
+        "region": "Africa",
+        "sub-region": "Sub-Saharan Africa",
+        "intermediate-region": "Western Africa",
+        "region-code": "002",
+        "sub-region-code": "
