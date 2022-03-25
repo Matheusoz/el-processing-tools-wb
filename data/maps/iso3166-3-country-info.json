@@ -1573,4 +1573,21 @@
     },
     "MAC": {
         "name": "Macao",
-        "alpha-2":
+        "alpha-2": "MO",
+        "country-code": 446,
+        "iso_3166-2": "ISO 3166-2:MO",
+        "region": "Asia",
+        "sub-region": "Eastern Asia",
+        "intermediate-region": "",
+        "region-code": "142",
+        "sub-region-code": "030",
+        "intermediate-region-code": ""
+    },
+    "MDG": {
+        "name": "Madagascar",
+        "alpha-2": "MG",
+        "country-code": 450,
+        "iso_3166-2": "ISO 3166-2:MG",
+        "region": "Africa",
+        "sub-region": "Sub-Saharan Africa",
+        "intermediate-region": "E
