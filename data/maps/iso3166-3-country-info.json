@@ -1608,3 +1608,20 @@
         "intermediate-region-code": "014"
     },
     "MYS": {
+        "name": "Malaysia",
+        "alpha-2": "MY",
+        "country-code": 458,
+        "iso_3166-2": "ISO 3166-2:MY",
+        "region": "Asia",
+        "sub-region": "South-eastern Asia",
+        "intermediate-region": "",
+        "region-code": "142",
+        "sub-region-code": "035",
+        "intermediate-region-code": ""
+    },
+    "MDV": {
+        "name": "Maldives",
+        "alpha-2": "MV",
+        "country-code": 462,
+        "iso_3166-2": "ISO 3166-2:MV",
+        "region": "Asia",
