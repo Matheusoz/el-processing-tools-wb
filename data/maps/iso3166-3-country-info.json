@@ -1660,4 +1660,20 @@
         "alpha-2": "MH",
         "country-code": 584,
         "iso_3166-2": "ISO 3166-2:MH",
-        "region": "Ocean
+        "region": "Oceania",
+        "sub-region": "Micronesia",
+        "intermediate-region": "",
+        "region-code": "009",
+        "sub-region-code": "057",
+        "intermediate-region-code": ""
+    },
+    "MTQ": {
+        "name": "Martinique",
+        "alpha-2": "MQ",
+        "country-code": 474,
+        "iso_3166-2": "ISO 3166-2:MQ",
+        "region": "Americas",
+        "sub-region": "Latin America and the Caribbean",
+        "intermediate-region": "Caribbean",
+        "region-code": "019",
+ 
