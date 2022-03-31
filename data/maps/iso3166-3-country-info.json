@@ -1641,4 +1641,23 @@
         "intermediate-region": "Western Africa",
         "region-code": "002",
         "sub-region-code": "202",
-        "intermediate-region-code": 
+        "intermediate-region-code": "011"
+    },
+    "MLT": {
+        "name": "Malta",
+        "alpha-2": "MT",
+        "country-code": 470,
+        "iso_3166-2": "ISO 3166-2:MT",
+        "region": "Europe",
+        "sub-region": "Southern Europe",
+        "intermediate-region": "",
+        "region-code": "150",
+        "sub-region-code": "039",
+        "intermediate-region-code": ""
+    },
+    "MHL": {
+        "name": "Marshall Islands",
+        "alpha-2": "MH",
+        "country-code": 584,
+        "iso_3166-2": "ISO 3166-2:MH",
+        "region": "Ocean
