@@ -1694,4 +1694,21 @@
     "MUS": {
         "name": "Mauritius",
         "alpha-2": "MU",
-        "country-code"
+        "country-code": 480,
+        "iso_3166-2": "ISO 3166-2:MU",
+        "region": "Africa",
+        "sub-region": "Sub-Saharan Africa",
+        "intermediate-region": "Eastern Africa",
+        "region-code": "002",
+        "sub-region-code": "202",
+        "intermediate-region-code": "014"
+    },
+    "MYT": {
+        "name": "Mayotte",
+        "alpha-2": "YT",
+        "country-code": 175,
+        "iso_3166-2": "ISO 3166-2:YT",
+        "region": "Africa",
+        "sub-region": "Sub-Saharan Africa",
+        "intermediate-region": "Eastern Africa",
+  
