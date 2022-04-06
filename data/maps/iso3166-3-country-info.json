@@ -1711,4 +1711,21 @@
         "region": "Africa",
         "sub-region": "Sub-Saharan Africa",
         "intermediate-region": "Eastern Africa",
-  
+        "region-code": "002",
+        "sub-region-code": "202",
+        "intermediate-region-code": "014"
+    },
+    "MEX": {
+        "name": "Mexico",
+        "alpha-2": "MX",
+        "country-code": 484,
+        "iso_3166-2": "ISO 3166-2:MX",
+        "region": "Americas",
+        "sub-region": "Latin America and the Caribbean",
+        "intermediate-region": "Central America",
+        "region-code": "019",
+        "sub-region-code": "419",
+        "intermediate-region-code": "013"
+    },
+    "FSM": {
+        "name": "Micronesia (Federated States of
