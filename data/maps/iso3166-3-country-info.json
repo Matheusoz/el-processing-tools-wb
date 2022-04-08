@@ -1782,3 +1782,19 @@
         "iso_3166-2": "ISO 3166-2:ME",
         "region": "Europe",
         "sub-region": "Southern Europe",
+        "intermediate-region": "",
+        "region-code": "150",
+        "sub-region-code": "039",
+        "intermediate-region-code": ""
+    },
+    "MSR": {
+        "name": "Montserrat",
+        "alpha-2": "MS",
+        "country-code": 500,
+        "iso_3166-2": "ISO 3166-2:MS",
+        "region": "Americas",
+        "sub-region": "Latin America and the Caribbean",
+        "intermediate-region": "Caribbean",
+        "region-code": "019",
+        "sub-region-code": "419",
+        "intermediate-region-cod
