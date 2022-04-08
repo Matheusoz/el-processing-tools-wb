@@ -1763,4 +1763,22 @@
         "sub-region-code": "155",
         "intermediate-region-code": ""
     },
-    "M
+    "MNG": {
+        "name": "Mongolia",
+        "alpha-2": "MN",
+        "country-code": 496,
+        "iso_3166-2": "ISO 3166-2:MN",
+        "region": "Asia",
+        "sub-region": "Eastern Asia",
+        "intermediate-region": "",
+        "region-code": "142",
+        "sub-region-code": "030",
+        "intermediate-region-code": ""
+    },
+    "MNE": {
+        "name": "Montenegro",
+        "alpha-2": "ME",
+        "country-code": 499,
+        "iso_3166-2": "ISO 3166-2:ME",
+        "region": "Europe",
+        "sub-region": "Southern Europe",
