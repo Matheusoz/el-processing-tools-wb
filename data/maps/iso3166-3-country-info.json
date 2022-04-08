@@ -1728,4 +1728,21 @@
         "intermediate-region-code": "013"
     },
     "FSM": {
-        "name": "Micronesia (Federated States of
+        "name": "Micronesia (Federated States of)",
+        "alpha-2": "FM",
+        "country-code": 583,
+        "iso_3166-2": "ISO 3166-2:FM",
+        "region": "Oceania",
+        "sub-region": "Micronesia",
+        "intermediate-region": "",
+        "region-code": "009",
+        "sub-region-code": "057",
+        "intermediate-region-code": ""
+    },
+    "MDA": {
+        "name": "Moldova, Republic of",
+        "alpha-2": "MD",
+        "country-code": 498,
+        "iso_3166-2": "ISO 3166-2:MD",
+        "region": "Europe",
+        "sub-region": 
