@@ -1815,4 +1815,20 @@
         "name": "Mozambique",
         "alpha-2": "MZ",
         "country-code": 508,
-        "iso_3166-2": "ISO 3166
+        "iso_3166-2": "ISO 3166-2:MZ",
+        "region": "Africa",
+        "sub-region": "Sub-Saharan Africa",
+        "intermediate-region": "Eastern Africa",
+        "region-code": "002",
+        "sub-region-code": "202",
+        "intermediate-region-code": "014"
+    },
+    "MMR": {
+        "name": "Myanmar",
+        "alpha-2": "MM",
+        "country-code": 104,
+        "iso_3166-2": "ISO 3166-2:MM",
+        "region": "Asia",
+        "sub-region": "South-eastern Asia",
+        "intermediate-region": "",
+        "re
