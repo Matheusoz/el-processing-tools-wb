@@ -1797,4 +1797,22 @@
         "intermediate-region": "Caribbean",
         "region-code": "019",
         "sub-region-code": "419",
-        "intermediate-region-cod
+        "intermediate-region-code": "029"
+    },
+    "MAR": {
+        "name": "Morocco",
+        "alpha-2": "MA",
+        "country-code": 504,
+        "iso_3166-2": "ISO 3166-2:MA",
+        "region": "Africa",
+        "sub-region": "Northern Africa",
+        "intermediate-region": "",
+        "region-code": "002",
+        "sub-region-code": "015",
+        "intermediate-region-code": ""
+    },
+    "MOZ": {
+        "name": "Mozambique",
+        "alpha-2": "MZ",
+        "country-code": 508,
+        "iso_3166-2": "ISO 3166
