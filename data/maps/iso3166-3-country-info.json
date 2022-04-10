@@ -1831,4 +1831,22 @@
         "region": "Asia",
         "sub-region": "South-eastern Asia",
         "intermediate-region": "",
-        "re
+        "region-code": "142",
+        "sub-region-code": "035",
+        "intermediate-region-code": ""
+    },
+    "NAM": {
+        "name": "Namibia",
+        "alpha-2": "NA",
+        "country-code": 516,
+        "iso_3166-2": "ISO 3166-2:NA",
+        "region": "Africa",
+        "sub-region": "Sub-Saharan Africa",
+        "intermediate-region": "Southern Africa",
+        "region-code": "002",
+        "sub-region-code": "202",
+        "intermediate-region-code": "018"
+    },
+    "NRU": {
+        "name": "Nauru",
+        "alpha-2"
