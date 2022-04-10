@@ -1849,4 +1849,23 @@
     },
     "NRU": {
         "name": "Nauru",
-        "alpha-2"
+        "alpha-2": "NR",
+        "country-code": 520,
+        "iso_3166-2": "ISO 3166-2:NR",
+        "region": "Oceania",
+        "sub-region": "Micronesia",
+        "intermediate-region": "",
+        "region-code": "009",
+        "sub-region-code": "057",
+        "intermediate-region-code": ""
+    },
+    "NPL": {
+        "name": "Nepal",
+        "alpha-2": "NP",
+        "country-code": 524,
+        "iso_3166-2": "ISO 3166-2:NP",
+        "region": "Asia",
+        "sub-region": "Southern Asia",
+        "intermediate-region": "",
+        "region-code": "142",
+        "
