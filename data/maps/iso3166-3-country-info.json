@@ -1868,4 +1868,22 @@
         "sub-region": "Southern Asia",
         "intermediate-region": "",
         "region-code": "142",
-        "
+        "sub-region-code": "034",
+        "intermediate-region-code": ""
+    },
+    "NLD": {
+        "name": "Netherlands",
+        "alpha-2": "NL",
+        "country-code": 528,
+        "iso_3166-2": "ISO 3166-2:NL",
+        "region": "Europe",
+        "sub-region": "Western Europe",
+        "intermediate-region": "",
+        "region-code": "150",
+        "sub-region-code": "155",
+        "intermediate-region-code": ""
+    },
+    "NCL": {
+        "name": "New Caledonia",
+        "alpha-2": "NC",
+ 
