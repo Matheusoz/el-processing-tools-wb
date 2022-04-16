@@ -1920,4 +1920,21 @@
         "intermediate-region-code": "013"
     },
     "NER": {
-  
+        "name": "Niger",
+        "alpha-2": "NE",
+        "country-code": 562,
+        "iso_3166-2": "ISO 3166-2:NE",
+        "region": "Africa",
+        "sub-region": "Sub-Saharan Africa",
+        "intermediate-region": "Western Africa",
+        "region-code": "002",
+        "sub-region-code": "202",
+        "intermediate-region-code": "011"
+    },
+    "NGA": {
+        "name": "Nigeria",
+        "alpha-2": "NG",
+        "country-code": 566,
+        "iso_3166-2": "ISO 3166-2:NG",
+        "region": "Africa",
+        
