@@ -1937,4 +1937,19 @@
         "country-code": 566,
         "iso_3166-2": "ISO 3166-2:NG",
         "region": "Africa",
-        
+        "sub-region": "Sub-Saharan Africa",
+        "intermediate-region": "Western Africa",
+        "region-code": "002",
+        "sub-region-code": "202",
+        "intermediate-region-code": "011"
+    },
+    "NIU": {
+        "name": "Niue",
+        "alpha-2": "NU",
+        "country-code": 570,
+        "iso_3166-2": "ISO 3166-2:NU",
+        "region": "Oceania",
+        "sub-region": "Polynesia",
+        "intermediate-region": "",
+        "region-code": "009",
+        "sub-r
