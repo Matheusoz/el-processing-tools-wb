@@ -1971,4 +1971,21 @@
         "name": "North Macedonia",
         "alpha-2": "MK",
         "country-code": 807,
-        "iso_316
+        "iso_3166-2": "ISO 3166-2:MK",
+        "region": "Europe",
+        "sub-region": "Southern Europe",
+        "intermediate-region": "",
+        "region-code": "150",
+        "sub-region-code": "039",
+        "intermediate-region-code": ""
+    },
+    "MNP": {
+        "name": "Northern Mariana Islands",
+        "alpha-2": "MP",
+        "country-code": 580,
+        "iso_3166-2": "ISO 3166-2:MP",
+        "region": "Oceania",
+        "sub-region": "Micronesia",
+        "intermediate-region": "",
+        "region-code": "009",
+        "sub-region-code": "057",
