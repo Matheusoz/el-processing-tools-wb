@@ -1952,4 +1952,23 @@
         "sub-region": "Polynesia",
         "intermediate-region": "",
         "region-code": "009",
-        "sub-r
+        "sub-region-code": "061",
+        "intermediate-region-code": ""
+    },
+    "NFK": {
+        "name": "Norfolk Island",
+        "alpha-2": "NF",
+        "country-code": 574,
+        "iso_3166-2": "ISO 3166-2:NF",
+        "region": "Oceania",
+        "sub-region": "Australia and New Zealand",
+        "intermediate-region": "",
+        "region-code": "009",
+        "sub-region-code": "053",
+        "intermediate-region-code": ""
+    },
+    "MKD": {
+        "name": "North Macedonia",
+        "alpha-2": "MK",
+        "country-code": 807,
+        "iso_316
