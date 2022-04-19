@@ -2007,4 +2007,22 @@
         "name": "Oman",
         "alpha-2": "OM",
         "country-code": 512,
-        "iso_3166-2": "ISO 3166
+        "iso_3166-2": "ISO 3166-2:OM",
+        "region": "Asia",
+        "sub-region": "Western Asia",
+        "intermediate-region": "",
+        "region-code": "142",
+        "sub-region-code": "145",
+        "intermediate-region-code": ""
+    },
+    "PAK": {
+        "name": "Pakistan",
+        "alpha-2": "PK",
+        "country-code": 586,
+        "iso_3166-2": "ISO 3166-2:PK",
+        "region": "Asia",
+        "sub-region": "Southern Asia",
+        "intermediate-region": "",
+        "region-code": "142",
+        "sub-region-code": "034",
+  
