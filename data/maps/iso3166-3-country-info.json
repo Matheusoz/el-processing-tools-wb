@@ -2025,4 +2025,22 @@
         "intermediate-region": "",
         "region-code": "142",
         "sub-region-code": "034",
-  
+        "intermediate-region-code": ""
+    },
+    "PLW": {
+        "name": "Palau",
+        "alpha-2": "PW",
+        "country-code": 585,
+        "iso_3166-2": "ISO 3166-2:PW",
+        "region": "Oceania",
+        "sub-region": "Micronesia",
+        "intermediate-region": "",
+        "region-code": "009",
+        "sub-region-code": "057",
+        "intermediate-region-code": ""
+    },
+    "PSE": {
+        "name": "Palestine, State of",
+        "alpha-2": "PS",
+        "country-code": 275,
+        "iso_3166-2": "ISO 3166-2:PS",
