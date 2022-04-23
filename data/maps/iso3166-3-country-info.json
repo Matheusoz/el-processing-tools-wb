@@ -2060,4 +2060,21 @@
         "sub-region": "Latin America and the Caribbean",
         "intermediate-region": "Central America",
         "region-code": "019",
-     
+        "sub-region-code": "419",
+        "intermediate-region-code": "013"
+    },
+    "PNG": {
+        "name": "Papua New Guinea",
+        "alpha-2": "PG",
+        "country-code": 598,
+        "iso_3166-2": "ISO 3166-2:PG",
+        "region": "Oceania",
+        "sub-region": "Melanesia",
+        "intermediate-region": "",
+        "region-code": "009",
+        "sub-region-code": "054",
+        "intermediate-region-code": ""
+    },
+    "PRY": {
+        "name": "Paraguay",
+        "alpha-2": "P
