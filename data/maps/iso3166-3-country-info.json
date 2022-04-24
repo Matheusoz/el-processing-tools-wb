@@ -2077,4 +2077,20 @@
     },
     "PRY": {
         "name": "Paraguay",
-        "alpha-2": "P
+        "alpha-2": "PY",
+        "country-code": 600,
+        "iso_3166-2": "ISO 3166-2:PY",
+        "region": "Americas",
+        "sub-region": "Latin America and the Caribbean",
+        "intermediate-region": "South America",
+        "region-code": "019",
+        "sub-region-code": "419",
+        "intermediate-region-code": "005"
+    },
+    "PER": {
+        "name": "Peru",
+        "alpha-2": "PE",
+        "country-code": 604,
+        "iso_3166-2": "ISO 3166-2:PE",
+        "region": "Americas",
+        "sub-region": "Latin Americ
