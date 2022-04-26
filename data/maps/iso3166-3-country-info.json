@@ -2093,4 +2093,19 @@
         "country-code": 604,
         "iso_3166-2": "ISO 3166-2:PE",
         "region": "Americas",
-        "sub-region": "Latin Americ
+        "sub-region": "Latin America and the Caribbean",
+        "intermediate-region": "South America",
+        "region-code": "019",
+        "sub-region-code": "419",
+        "intermediate-region-code": "005"
+    },
+    "PHL": {
+        "name": "Philippines",
+        "alpha-2": "PH",
+        "country-code": 608,
+        "iso_3166-2": "ISO 3166-2:PH",
+        "region": "Asia",
+        "sub-region": "South-eastern Asia",
+        "intermediate-region": "",
+        "region-code": "142",
+        "sub
