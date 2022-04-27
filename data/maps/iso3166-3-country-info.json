@@ -2108,4 +2108,23 @@
         "sub-region": "South-eastern Asia",
         "intermediate-region": "",
         "region-code": "142",
-        "sub
+        "sub-region-code": "035",
+        "intermediate-region-code": ""
+    },
+    "PCN": {
+        "name": "Pitcairn",
+        "alpha-2": "PN",
+        "country-code": 612,
+        "iso_3166-2": "ISO 3166-2:PN",
+        "region": "Oceania",
+        "sub-region": "Polynesia",
+        "intermediate-region": "",
+        "region-code": "009",
+        "sub-region-code": "061",
+        "intermediate-region-code": ""
+    },
+    "POL": {
+        "name": "Poland",
+        "alpha-2": "PL",
+        "country-code": 616,
+        "iso_3166-2":
