@@ -2144,4 +2144,21 @@
         "sub-region": "Southern Europe",
         "intermediate-region": "",
         "region-code": "150",
-        "s
+        "sub-region-code": "039",
+        "intermediate-region-code": ""
+    },
+    "PRI": {
+        "name": "Puerto Rico",
+        "alpha-2": "PR",
+        "country-code": 630,
+        "iso_3166-2": "ISO 3166-2:PR",
+        "region": "Americas",
+        "sub-region": "Latin America and the Caribbean",
+        "intermediate-region": "Caribbean",
+        "region-code": "019",
+        "sub-region-code": "419",
+        "intermediate-region-code": "029"
+    },
+    "QAT": {
+        "name": "Qatar",
+        "al
