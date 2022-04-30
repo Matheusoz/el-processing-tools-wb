@@ -2161,4 +2161,21 @@
     },
     "QAT": {
         "name": "Qatar",
-        "al
+        "alpha-2": "QA",
+        "country-code": 634,
+        "iso_3166-2": "ISO 3166-2:QA",
+        "region": "Asia",
+        "sub-region": "Western Asia",
+        "intermediate-region": "",
+        "region-code": "142",
+        "sub-region-code": "145",
+        "intermediate-region-code": ""
+    },
+    "REU": {
+        "name": "R\u00e9union",
+        "alpha-2": "RE",
+        "country-code": 638,
+        "iso_3166-2": "ISO 3166-2:RE",
+        "region": "Africa",
+        "sub-region": "Sub-Saharan Africa",
+      
