@@ -2178,4 +2178,19 @@
         "iso_3166-2": "ISO 3166-2:RE",
         "region": "Africa",
         "sub-region": "Sub-Saharan Africa",
-      
+        "intermediate-region": "Eastern Africa",
+        "region-code": "002",
+        "sub-region-code": "202",
+        "intermediate-region-code": "014"
+    },
+    "ROU": {
+        "name": "Romania",
+        "alpha-2": "RO",
+        "country-code": 642,
+        "iso_3166-2": "ISO 3166-2:RO",
+        "region": "Europe",
+        "sub-region": "Eastern Europe",
+        "intermediate-region": "",
+        "region-code": "150",
+        "sub-region-code": "151",
+        "inter
