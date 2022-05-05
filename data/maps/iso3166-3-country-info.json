@@ -2240,4 +2240,20 @@
         "sub-region": "Sub-Saharan Africa",
         "intermediate-region": "Western Africa",
         "region-code": "002",
-        "sub-region-co
+        "sub-region-code": "202",
+        "intermediate-region-code": "011"
+    },
+    "KNA": {
+        "name": "Saint Kitts and Nevis",
+        "alpha-2": "KN",
+        "country-code": 659,
+        "iso_3166-2": "ISO 3166-2:KN",
+        "region": "Americas",
+        "sub-region": "Latin America and the Caribbean",
+        "intermediate-region": "Caribbean",
+        "region-code": "019",
+        "sub-region-code": "419",
+        "intermediate-region-code": "029"
+    },
+    "LCA": {
+        "name
