@@ -2226,4 +2226,18 @@
         "iso_3166-2": "ISO 3166-2:BL",
         "region": "Americas",
         "sub-region": "Latin America and the Caribbean",
-        "i
+        "intermediate-region": "Caribbean",
+        "region-code": "019",
+        "sub-region-code": "419",
+        "intermediate-region-code": "029"
+    },
+    "SHN": {
+        "name": "Saint Helena, Ascension and Tristan da Cunha",
+        "alpha-2": "SH",
+        "country-code": 654,
+        "iso_3166-2": "ISO 3166-2:SH",
+        "region": "Africa",
+        "sub-region": "Sub-Saharan Africa",
+        "intermediate-region": "Western Africa",
+        "region-code": "002",
+        "sub-region-co
