@@ -2193,4 +2193,22 @@
         "intermediate-region": "",
         "region-code": "150",
         "sub-region-code": "151",
-        "inter
+        "intermediate-region-code": ""
+    },
+    "RUS": {
+        "name": "Russian Federation",
+        "alpha-2": "RU",
+        "country-code": 643,
+        "iso_3166-2": "ISO 3166-2:RU",
+        "region": "Europe",
+        "sub-region": "Eastern Europe",
+        "intermediate-region": "",
+        "region-code": "150",
+        "sub-region-code": "151",
+        "intermediate-region-code": ""
+    },
+    "RWA": {
+        "name": "Rwanda",
+        "alpha-2": "RW",
+        "country-code": 646,
+        
