@@ -2301,4 +2301,22 @@
         "intermediate-region": "Caribbean",
         "region-code": "019",
         "sub-region-code": "419",
-    
+        "intermediate-region-code": "029"
+    },
+    "WSM": {
+        "name": "Samoa",
+        "alpha-2": "WS",
+        "country-code": 882,
+        "iso_3166-2": "ISO 3166-2:WS",
+        "region": "Oceania",
+        "sub-region": "Polynesia",
+        "intermediate-region": "",
+        "region-code": "009",
+        "sub-region-code": "061",
+        "intermediate-region-code": ""
+    },
+    "SMR": {
+        "name": "San Marino",
+        "alpha-2": "SM",
+        "country-code": 674,
+        "
