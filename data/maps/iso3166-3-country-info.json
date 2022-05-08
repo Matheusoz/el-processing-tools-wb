@@ -2256,4 +2256,20 @@
         "intermediate-region-code": "029"
     },
     "LCA": {
-        "name
+        "name": "Saint Lucia",
+        "alpha-2": "LC",
+        "country-code": 662,
+        "iso_3166-2": "ISO 3166-2:LC",
+        "region": "Americas",
+        "sub-region": "Latin America and the Caribbean",
+        "intermediate-region": "Caribbean",
+        "region-code": "019",
+        "sub-region-code": "419",
+        "intermediate-region-code": "029"
+    },
+    "MAF": {
+        "name": "Saint Martin (French part)",
+        "alpha-2": "MF",
+        "country-code": 663,
+        "iso_3166-2": "ISO 3166-2:MF",
+       
