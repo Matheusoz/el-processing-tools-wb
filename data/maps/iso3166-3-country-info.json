@@ -2286,3 +2286,19 @@
         "iso_3166-2": "ISO 3166-2:PM",
         "region": "Americas",
         "sub-region": "Northern America",
+        "intermediate-region": "",
+        "region-code": "019",
+        "sub-region-code": "021",
+        "intermediate-region-code": ""
+    },
+    "VCT": {
+        "name": "Saint Vincent and the Grenadines",
+        "alpha-2": "VC",
+        "country-code": 670,
+        "iso_3166-2": "ISO 3166-2:VC",
+        "region": "Americas",
+        "sub-region": "Latin America and the Caribbean",
+        "intermediate-region": "Caribbean",
+        "region-code": "019",
+        "sub-region-code": "419",
+    
