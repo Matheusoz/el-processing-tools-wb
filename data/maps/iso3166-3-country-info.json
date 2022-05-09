@@ -2354,4 +2354,19 @@
     "SEN": {
         "name": "Senegal",
         "alpha-2": "SN",
-   
+        "country-code": 686,
+        "iso_3166-2": "ISO 3166-2:SN",
+        "region": "Africa",
+        "sub-region": "Sub-Saharan Africa",
+        "intermediate-region": "Western Africa",
+        "region-code": "002",
+        "sub-region-code": "202",
+        "intermediate-region-code": "011"
+    },
+    "SRB": {
+        "name": "Serbia",
+        "alpha-2": "RS",
+        "country-code": 688,
+        "iso_3166-2": "ISO 3166-2:RS",
+        "region": "Europe",
+        "sub-region": "Souther
