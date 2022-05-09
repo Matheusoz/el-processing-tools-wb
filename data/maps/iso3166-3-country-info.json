@@ -2336,4 +2336,22 @@
         "sub-region": "Sub-Saharan Africa",
         "intermediate-region": "Middle Africa",
         "region-code": "002",
-        "sub-region-
+        "sub-region-code": "202",
+        "intermediate-region-code": "017"
+    },
+    "SAU": {
+        "name": "Saudi Arabia",
+        "alpha-2": "SA",
+        "country-code": 682,
+        "iso_3166-2": "ISO 3166-2:SA",
+        "region": "Asia",
+        "sub-region": "Western Asia",
+        "intermediate-region": "",
+        "region-code": "142",
+        "sub-region-code": "145",
+        "intermediate-region-code": ""
+    },
+    "SEN": {
+        "name": "Senegal",
+        "alpha-2": "SN",
+   
