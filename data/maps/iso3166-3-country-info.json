@@ -2319,4 +2319,21 @@
         "name": "San Marino",
         "alpha-2": "SM",
         "country-code": 674,
-        "
+        "iso_3166-2": "ISO 3166-2:SM",
+        "region": "Europe",
+        "sub-region": "Southern Europe",
+        "intermediate-region": "",
+        "region-code": "150",
+        "sub-region-code": "039",
+        "intermediate-region-code": ""
+    },
+    "STP": {
+        "name": "Sao Tome and Principe",
+        "alpha-2": "ST",
+        "country-code": 678,
+        "iso_3166-2": "ISO 3166-2:ST",
+        "region": "Africa",
+        "sub-region": "Sub-Saharan Africa",
+        "intermediate-region": "Middle Africa",
+        "region-code": "002",
+        "sub-region-
