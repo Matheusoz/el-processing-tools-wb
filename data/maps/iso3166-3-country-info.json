@@ -2369,4 +2369,20 @@
         "country-code": 688,
         "iso_3166-2": "ISO 3166-2:RS",
         "region": "Europe",
-        "sub-region": "Souther
+        "sub-region": "Southern Europe",
+        "intermediate-region": "",
+        "region-code": "150",
+        "sub-region-code": "039",
+        "intermediate-region-code": ""
+    },
+    "SYC": {
+        "name": "Seychelles",
+        "alpha-2": "SC",
+        "country-code": 690,
+        "iso_3166-2": "ISO 3166-2:SC",
+        "region": "Africa",
+        "sub-region": "Sub-Saharan Africa",
+        "intermediate-region": "Eastern Africa",
+        "region-code": "002",
+        "sub-region-code": "202",
+        "intermediate-regi
