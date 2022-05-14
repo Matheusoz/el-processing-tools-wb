@@ -2385,4 +2385,22 @@
         "intermediate-region": "Eastern Africa",
         "region-code": "002",
         "sub-region-code": "202",
-        "intermediate-regi
+        "intermediate-region-code": "014"
+    },
+    "SLE": {
+        "name": "Sierra Leone",
+        "alpha-2": "SL",
+        "country-code": 694,
+        "iso_3166-2": "ISO 3166-2:SL",
+        "region": "Africa",
+        "sub-region": "Sub-Saharan Africa",
+        "intermediate-region": "Western Africa",
+        "region-code": "002",
+        "sub-region-code": "202",
+        "intermediate-region-code": "011"
+    },
+    "SGP": {
+        "name": "Singapore",
+        "alpha-2": "SG",
+        "country-code": 702,
+        "iso_3166-2"
