@@ -2403,4 +2403,19 @@
         "name": "Singapore",
         "alpha-2": "SG",
         "country-code": 702,
-        "iso_3166-2"
+        "iso_3166-2": "ISO 3166-2:SG",
+        "region": "Asia",
+        "sub-region": "South-eastern Asia",
+        "intermediate-region": "",
+        "region-code": "142",
+        "sub-region-code": "035",
+        "intermediate-region-code": ""
+    },
+    "SXM": {
+        "name": "Sint Maarten (Dutch part)",
+        "alpha-2": "SX",
+        "country-code": 534,
+        "iso_3166-2": "ISO 3166-2:SX",
+        "region": "Americas",
+        "sub-region": "Latin America and the Caribbean",
+        "inter
