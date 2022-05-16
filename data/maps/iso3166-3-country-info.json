@@ -2469,4 +2469,21 @@
         "intermediate-region": "Eastern Africa",
         "region-code": "002",
         "sub-region-code": "202",
-        "i
+        "intermediate-region-code": "014"
+    },
+    "ZAF": {
+        "name": "South Africa",
+        "alpha-2": "ZA",
+        "country-code": 710,
+        "iso_3166-2": "ISO 3166-2:ZA",
+        "region": "Africa",
+        "sub-region": "Sub-Saharan Africa",
+        "intermediate-region": "Southern Africa",
+        "region-code": "002",
+        "sub-region-code": "202",
+        "intermediate-region-code": "018"
+    },
+    "SGS": {
+        "name": "South Georgia and the South Sandwich Islands",
+        "alpha-2": "GS",
+        "country-code": 239,
