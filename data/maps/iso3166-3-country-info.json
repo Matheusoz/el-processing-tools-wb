@@ -2436,3 +2436,21 @@
         "intermediate-region-code": ""
     },
     "SVN": {
+        "name": "Slovenia",
+        "alpha-2": "SI",
+        "country-code": 705,
+        "iso_3166-2": "ISO 3166-2:SI",
+        "region": "Europe",
+        "sub-region": "Southern Europe",
+        "intermediate-region": "",
+        "region-code": "150",
+        "sub-region-code": "039",
+        "intermediate-region-code": ""
+    },
+    "SLB": {
+        "name": "Solomon Islands",
+        "alpha-2": "SB",
+        "country-code": 90,
+        "iso_3166-2": "ISO 3166-2:SB",
+        "region": "Oceania",
+        "
