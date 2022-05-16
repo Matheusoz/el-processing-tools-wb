@@ -2453,4 +2453,20 @@
         "country-code": 90,
         "iso_3166-2": "ISO 3166-2:SB",
         "region": "Oceania",
-        "
+        "sub-region": "Melanesia",
+        "intermediate-region": "",
+        "region-code": "009",
+        "sub-region-code": "054",
+        "intermediate-region-code": ""
+    },
+    "SOM": {
+        "name": "Somalia",
+        "alpha-2": "SO",
+        "country-code": 706,
+        "iso_3166-2": "ISO 3166-2:SO",
+        "region": "Africa",
+        "sub-region": "Sub-Saharan Africa",
+        "intermediate-region": "Eastern Africa",
+        "region-code": "002",
+        "sub-region-code": "202",
+        "i
