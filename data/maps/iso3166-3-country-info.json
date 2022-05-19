@@ -2502,4 +2502,22 @@
         "iso_3166-2": "ISO 3166-2:SS",
         "region": "Africa",
         "sub-region": "Sub-Saharan Africa",
-        "intermediate-
+        "intermediate-region": "Eastern Africa",
+        "region-code": "002",
+        "sub-region-code": "202",
+        "intermediate-region-code": "014"
+    },
+    "ESP": {
+        "name": "Spain",
+        "alpha-2": "ES",
+        "country-code": 724,
+        "iso_3166-2": "ISO 3166-2:ES",
+        "region": "Europe",
+        "sub-region": "Southern Europe",
+        "intermediate-region": "",
+        "region-code": "150",
+        "sub-region-code": "039",
+        "intermediate-region-code": ""
+    },
+    "LKA": {
+        "name": "Sri
