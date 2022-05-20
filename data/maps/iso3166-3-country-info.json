@@ -2520,4 +2520,21 @@
         "intermediate-region-code": ""
     },
     "LKA": {
-        "name": "Sri
+        "name": "Sri Lanka",
+        "alpha-2": "LK",
+        "country-code": 144,
+        "iso_3166-2": "ISO 3166-2:LK",
+        "region": "Asia",
+        "sub-region": "Southern Asia",
+        "intermediate-region": "",
+        "region-code": "142",
+        "sub-region-code": "034",
+        "intermediate-region-code": ""
+    },
+    "SDN": {
+        "name": "Sudan",
+        "alpha-2": "SD",
+        "country-code": 729,
+        "iso_3166-2": "ISO 3166-2:SD",
+        "region": "Africa",
+        "su
