@@ -2537,4 +2537,18 @@
         "country-code": 729,
         "iso_3166-2": "ISO 3166-2:SD",
         "region": "Africa",
-        "su
+        "sub-region": "Northern Africa",
+        "intermediate-region": "",
+        "region-code": "002",
+        "sub-region-code": "015",
+        "intermediate-region-code": ""
+    },
+    "SUR": {
+        "name": "Suriname",
+        "alpha-2": "SR",
+        "country-code": 740,
+        "iso_3166-2": "ISO 3166-2:SR",
+        "region": "Americas",
+        "sub-region": "Latin America and the Caribbean",
+        "intermediate-region": "South America",
+        "region-code":
