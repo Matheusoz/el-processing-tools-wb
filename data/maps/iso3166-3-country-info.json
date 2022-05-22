@@ -2600,4 +2600,23 @@
         "sub-region": "Western Asia",
         "intermediate-region": "",
         "region-code": "142",
-        "sub-region-code": "
+        "sub-region-code": "145",
+        "intermediate-region-code": ""
+    },
+    "TWN": {
+        "name": "Taiwan, Province of China",
+        "alpha-2": "TW",
+        "country-code": 158,
+        "iso_3166-2": "ISO 3166-2:TW",
+        "region": "Asia",
+        "sub-region": "Eastern Asia",
+        "intermediate-region": "",
+        "region-code": "142",
+        "sub-region-code": "030",
+        "intermediate-region-code": ""
+    },
+    "TJK": {
+        "name": "Tajikistan",
+        "alpha-2": "TJ",
+        "country-code": 762,
+ 
