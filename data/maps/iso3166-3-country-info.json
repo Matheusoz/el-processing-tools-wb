@@ -2619,4 +2619,20 @@
         "name": "Tajikistan",
         "alpha-2": "TJ",
         "country-code": 762,
- 
+        "iso_3166-2": "ISO 3166-2:TJ",
+        "region": "Asia",
+        "sub-region": "Central Asia",
+        "intermediate-region": "",
+        "region-code": "142",
+        "sub-region-code": "143",
+        "intermediate-region-code": ""
+    },
+    "TZA": {
+        "name": "Tanzania, United Republic of",
+        "alpha-2": "TZ",
+        "country-code": 834,
+        "iso_3166-2": "ISO 3166-2:TZ",
+        "region": "Africa",
+        "sub-region": "Sub-Saharan Africa",
+        "intermediate-region": "Eastern Africa",
+       
