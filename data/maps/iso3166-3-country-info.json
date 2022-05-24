@@ -2635,4 +2635,22 @@
         "region": "Africa",
         "sub-region": "Sub-Saharan Africa",
         "intermediate-region": "Eastern Africa",
-       
+        "region-code": "002",
+        "sub-region-code": "202",
+        "intermediate-region-code": "014"
+    },
+    "THA": {
+        "name": "Thailand",
+        "alpha-2": "TH",
+        "country-code": 764,
+        "iso_3166-2": "ISO 3166-2:TH",
+        "region": "Asia",
+        "sub-region": "South-eastern Asia",
+        "intermediate-region": "",
+        "region-code": "142",
+        "sub-region-code": "035",
+        "intermediate-region-code": ""
+    },
+    "TLS": {
+        "name": "Timor-Leste",
+        "alpha-2
