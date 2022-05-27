@@ -2670,4 +2670,20 @@
         "iso_3166-2": "ISO 3166-2:TG",
         "region": "Africa",
         "sub-region": "Sub-Saharan Africa",
-        "intermediate-region": "Western 
+        "intermediate-region": "Western Africa",
+        "region-code": "002",
+        "sub-region-code": "202",
+        "intermediate-region-code": "011"
+    },
+    "TKL": {
+        "name": "Tokelau",
+        "alpha-2": "TK",
+        "country-code": 772,
+        "iso_3166-2": "ISO 3166-2:TK",
+        "region": "Oceania",
+        "sub-region": "Polynesia",
+        "intermediate-region": "",
+        "region-code": "009",
+        "sub-region-code": "061",
+        "intermediate-region-code": ""
+   
