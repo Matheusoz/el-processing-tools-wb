@@ -2705,4 +2705,20 @@
         "country-code": 780,
         "iso_3166-2": "ISO 3166-2:TT",
         "region": "Americas",
-        "sub-region": 
+        "sub-region": "Latin America and the Caribbean",
+        "intermediate-region": "Caribbean",
+        "region-code": "019",
+        "sub-region-code": "419",
+        "intermediate-region-code": "029"
+    },
+    "TUN": {
+        "name": "Tunisia",
+        "alpha-2": "TN",
+        "country-code": 788,
+        "iso_3166-2": "ISO 3166-2:TN",
+        "region": "Africa",
+        "sub-region": "Northern Africa",
+        "intermediate-region": "",
+        "region-code": "002",
+        "sub-region-code": "015",
+      
