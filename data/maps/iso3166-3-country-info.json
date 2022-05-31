@@ -2755,4 +2755,22 @@
         "region": "Americas",
         "sub-region": "Latin America and the Caribbean",
         "intermediate-region": "Caribbean",
-        "regi
+        "region-code": "019",
+        "sub-region-code": "419",
+        "intermediate-region-code": "029"
+    },
+    "TUV": {
+        "name": "Tuvalu",
+        "alpha-2": "TV",
+        "country-code": 798,
+        "iso_3166-2": "ISO 3166-2:TV",
+        "region": "Oceania",
+        "sub-region": "Polynesia",
+        "intermediate-region": "",
+        "region-code": "009",
+        "sub-region-code": "061",
+        "intermediate-region-code": ""
+    },
+    "UGA": {
+        "name": "Uganda",
+ 
