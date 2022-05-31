@@ -2773,4 +2773,20 @@
     },
     "UGA": {
         "name": "Uganda",
- 
+        "alpha-2": "UG",
+        "country-code": 800,
+        "iso_3166-2": "ISO 3166-2:UG",
+        "region": "Africa",
+        "sub-region": "Sub-Saharan Africa",
+        "intermediate-region": "Eastern Africa",
+        "region-code": "002",
+        "sub-region-code": "202",
+        "intermediate-region-code": "014"
+    },
+    "UKR": {
+        "name": "Ukraine",
+        "alpha-2": "UA",
+        "country-code": 804,
+        "iso_3166-2": "ISO 3166-2:UA",
+        "region": "Europe",
+        "sub-regi
