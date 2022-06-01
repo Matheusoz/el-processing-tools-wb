@@ -2789,4 +2789,20 @@
         "country-code": 804,
         "iso_3166-2": "ISO 3166-2:UA",
         "region": "Europe",
-        "sub-regi
+        "sub-region": "Eastern Europe",
+        "intermediate-region": "",
+        "region-code": "150",
+        "sub-region-code": "151",
+        "intermediate-region-code": ""
+    },
+    "ARE": {
+        "name": "United Arab Emirates",
+        "alpha-2": "AE",
+        "country-code": 784,
+        "iso_3166-2": "ISO 3166-2:AE",
+        "region": "Asia",
+        "sub-region": "Western Asia",
+        "intermediate-region": "",
+        "region-code": "142",
+        "sub-region-code": "145",
+        "intermediate-region-cod
