@@ -2805,4 +2805,21 @@
         "intermediate-region": "",
         "region-code": "142",
         "sub-region-code": "145",
-        "intermediate-region-cod
+        "intermediate-region-code": ""
+    },
+    "GBR": {
+        "name": "United Kingdom of Great Britain and Northern Ireland",
+        "alpha-2": "GB",
+        "country-code": 826,
+        "iso_3166-2": "ISO 3166-2:GB",
+        "region": "Europe",
+        "sub-region": "Northern Europe",
+        "intermediate-region": "",
+        "region-code": "150",
+        "sub-region-code": "154",
+        "intermediate-region-code": ""
+    },
+    "USA": {
+        "name": "United States of America",
+        "alpha-2": "US",
+        "co
