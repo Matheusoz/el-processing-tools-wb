@@ -2822,4 +2822,19 @@
     "USA": {
         "name": "United States of America",
         "alpha-2": "US",
-        "co
+        "country-code": 840,
+        "iso_3166-2": "ISO 3166-2:US",
+        "region": "Americas",
+        "sub-region": "Northern America",
+        "intermediate-region": "",
+        "region-code": "019",
+        "sub-region-code": "021",
+        "intermediate-region-code": ""
+    },
+    "UMI": {
+        "name": "United States Minor Outlying Islands",
+        "alpha-2": "UM",
+        "country-code": 581,
+        "iso_3166-2": "ISO 3166-2:UM",
+        "region": "Oceania",
+        "sub-regi
