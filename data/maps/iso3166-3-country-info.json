@@ -2871,4 +2871,18 @@
         "name": "Vanuatu",
         "alpha-2": "VU",
         "country-code": 548,
-        "is
+        "iso_3166-2": "ISO 3166-2:VU",
+        "region": "Oceania",
+        "sub-region": "Melanesia",
+        "intermediate-region": "",
+        "region-code": "009",
+        "sub-region-code": "054",
+        "intermediate-region-code": ""
+    },
+    "VEN": {
+        "name": "Venezuela (Bolivarian Republic of)",
+        "alpha-2": "VE",
+        "country-code": 862,
+        "iso_3166-2": "ISO 3166-2:VE",
+        "region": "Americas",
+        "sub-region": "Latin America and the Carib
