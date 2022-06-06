@@ -2837,4 +2837,19 @@
         "country-code": 581,
         "iso_3166-2": "ISO 3166-2:UM",
         "region": "Oceania",
-        "sub-regi
+        "sub-region": "Micronesia",
+        "intermediate-region": "",
+        "region-code": "009",
+        "sub-region-code": "057",
+        "intermediate-region-code": ""
+    },
+    "URY": {
+        "name": "Uruguay",
+        "alpha-2": "UY",
+        "country-code": 858,
+        "iso_3166-2": "ISO 3166-2:UY",
+        "region": "Americas",
+        "sub-region": "Latin America and the Caribbean",
+        "intermediate-region": "South America",
+        "region-code": "019",
+        "sub-region-code": "419",
