@@ -2885,4 +2885,20 @@
         "country-code": 862,
         "iso_3166-2": "ISO 3166-2:VE",
         "region": "Americas",
-        "sub-region": "Latin America and the Carib
+        "sub-region": "Latin America and the Caribbean",
+        "intermediate-region": "South America",
+        "region-code": "019",
+        "sub-region-code": "419",
+        "intermediate-region-code": "005"
+    },
+    "VNM": {
+        "name": "Viet Nam",
+        "alpha-2": "VN",
+        "country-code": 704,
+        "iso_3166-2": "ISO 3166-2:VN",
+        "region": "Asia",
+        "sub-region": "South-eastern Asia",
+        "intermediate-region": "",
+        "region-code": "142",
+        "sub-region-code": "035",
+        "intermediate-region-code
