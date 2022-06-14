@@ -2919,4 +2919,20 @@
         "name": "Virgin Islands (U.S.)",
         "alpha-2": "VI",
         "country-code": 850,
-        "is
+        "iso_3166-2": "ISO 3166-2:VI",
+        "region": "Americas",
+        "sub-region": "Latin America and the Caribbean",
+        "intermediate-region": "Caribbean",
+        "region-code": "019",
+        "sub-region-code": "419",
+        "intermediate-region-code": "029"
+    },
+    "WLF": {
+        "name": "Wallis and Futuna",
+        "alpha-2": "WF",
+        "country-code": 876,
+        "iso_3166-2": "ISO 3166-2:WF",
+        "region": "Oceania",
+        "sub-region": "Polynesia",
+        "intermediate-region": "",
+        "regi
