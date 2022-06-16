@@ -2954,4 +2954,20 @@
     "YEM": {
         "name": "Yemen",
         "alpha-2": "YE",
-        "country-code": 8
+        "country-code": 887,
+        "iso_3166-2": "ISO 3166-2:YE",
+        "region": "Asia",
+        "sub-region": "Western Asia",
+        "intermediate-region": "",
+        "region-code": "142",
+        "sub-region-code": "145",
+        "intermediate-region-code": ""
+    },
+    "ZMB": {
+        "name": "Zambia",
+        "alpha-2": "ZM",
+        "country-code": 894,
+        "iso_3166-2": "ISO 3166-2:ZM",
+        "region": "Africa",
+        "sub-region": "Sub-Saharan Africa",
+        "intermediate
