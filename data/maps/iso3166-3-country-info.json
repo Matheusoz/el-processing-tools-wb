@@ -2970,4 +2970,20 @@
         "iso_3166-2": "ISO 3166-2:ZM",
         "region": "Africa",
         "sub-region": "Sub-Saharan Africa",
-        "intermediate
+        "intermediate-region": "Eastern Africa",
+        "region-code": "002",
+        "sub-region-code": "202",
+        "intermediate-region-code": "014"
+    },
+    "ZWE": {
+        "name": "Zimbabwe",
+        "alpha-2": "ZW",
+        "country-code": 716,
+        "iso_3166-2": "ISO 3166-2:ZW",
+        "region": "Africa",
+        "sub-region": "Sub-Saharan Africa",
+        "intermediate-region": "Eastern Africa",
+        "region-code": "002",
+        "sub-region-code": "202",
+        "intermediate-region-code": "014"
+   
