@@ -2935,4 +2935,23 @@
         "region": "Oceania",
         "sub-region": "Polynesia",
         "intermediate-region": "",
-        "regi
+        "region-code": "009",
+        "sub-region-code": "061",
+        "intermediate-region-code": ""
+    },
+    "ESH": {
+        "name": "Western Sahara",
+        "alpha-2": "EH",
+        "country-code": 732,
+        "iso_3166-2": "ISO 3166-2:EH",
+        "region": "Africa",
+        "sub-region": "Northern Africa",
+        "intermediate-region": "",
+        "region-code": "002",
+        "sub-region-code": "015",
+        "intermediate-region-code": ""
+    },
+    "YEM": {
+        "name": "Yemen",
+        "alpha-2": "YE",
+        "country-code": 8
