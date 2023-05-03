@@ -966,4 +966,16 @@ MPI,Import price index,imf DOC
 MSA,Metropolitan Statistical Area,imf DOC
 NACE,General Industrial Classification of Economic Activities within the European Communities,imf DOC
 NAFTA,North American Free Trade Association,imf DOC
-NAICS,North American Industrial Classifica
+NAICS,North American Industrial Classification System,imf DOC
+SNA,System of National Accounts ,imf DOC
+NPI,Inventory price index,imf DOC
+NPISH,Nonprofit institution serving households,imf DOC
+OECD,Organisation for Economic Co-operation and Development,imf DOC
+OLS,Ordinary least squares ,imf DOC
+PC,Personal computer,imf DOC
+PCE,Personal consumption expenditures,imf DOC
+PCS,Personal communications service,imf DOC
+PDA,Personal digital assistant,imf DOC
+PMC,Profit-maximizing center,imf DOC
+PPI,Producer price index,imf DOC
+PPP,Purchasing po
