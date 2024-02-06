@@ -413,3 +413,47 @@ class CorpusCleaner:
         An example of this transformer is the Phraser transformer in gensim.
 
         If a dictionary is provided, it will automatically transform the document into a bag-of-word
+        representation.
+        """
+        self.check_train_state()
+        self.reset()
+
+        for cleaned_doc in self.__iter__():
+            doc = list(transformer[cleaned_doc])
+
+            if dictionary is not None:
+                doc = dictionary.doc2bow(doc)
+
+            yield doc
+
+
+if __name__ == "__main__":
+    from wb_cleaning.utils.scripts import load_config
+    from wb_cleaning import dir_manager
+    from wb_cleaning.types.cleaning import CleaningConfig
+
+    config = load_config(dir_manager.get_path_from_root(
+        'configs', 'cleaning', 'default.yml'), 'cleaning_config', None)
+
+    config = CleaningConfig(**config).dict()
+    print(config)
+
+    bc = BaseCleaner(config=config)
+    test_txt = """Hello world, why are you all here at the World Bank?
+        We need to do something about the linear regresion.
+        The bayesian information is not liot here."""
+
+    print([(i.text, i.pos_, i.lemma_) for i in nlp(test_txt)])
+
+    t = bc.get_clean_tokens(test_txt)
+
+    print(t)
+
+    assert t == [
+        "world",
+        "need",
+        "linear",
+        "regression",
+        "bayesian",
+        "information",
+    ]
