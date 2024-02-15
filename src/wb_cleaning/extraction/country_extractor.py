@@ -118,3 +118,117 @@ def get_country_count_details(counts):
         #   "region": "Americas",
         #   "sub-region": "Latin America and the Caribbean",
         #   "intermediate-region": "Caribbean",
+        #   "region-code": "019",
+        #   "sub-region-code": "419",
+        #   "intermediate-region-code": "029"
+
+        info = dict(code=code, count=count, percent=count / total)
+        info.update(detail)
+        data.append(info)
+
+    return data
+
+
+def get_detailed_country_counts(txt):
+    return get_country_count_details(get_country_counts(txt))
+
+
+def get_country_counts_regions(counts):
+    regions = None
+    if counts:
+        regions = sorted({standardized_regions_iso3c.get(c)
+                         for c in counts if standardized_regions_iso3c.get(c)})
+
+    return regions
+
+
+def get_region_countries(regions):
+    countries = None
+    if regions:
+        countries = sorted(standardized_regions_full[standardized_regions_full["region"].isin(
+            regions)]["iso3c"].map(get_country_name_from_code).tolist())
+
+    return countries
+
+
+def load_iso3166_3_country_info():
+    return pd.read_json(get_data_dir("maps", "iso3166-3-country-info.json")).to_dict()
+
+
+def load_country_groups_map():
+    return pd.read_excel(
+        get_data_dir("whitelists", "countries", "codelist.xlsx"),
+        sheet_name="groups_iso3c", header=1, index_col=1).drop("country.name.en", axis=1).apply(lambda col_ser: col_ser.dropna().index.dropna().tolist(), axis=0).to_dict()
+
+
+def get_region_from_country_code(code):
+    return standardized_regions_iso3c.get(code)
+
+
+standardized_regions_full = get_standardized_regions(iso_code="full")
+
+# {iso3-code1: region1, iso3-code2: region2, ... }
+standardized_regions_iso3c = get_standardized_regions(iso_code="iso3c")
+valid_regions = sorted(standardized_regions_full["region"].unique())
+
+# {iso3-code1: {name: country_name1, region: region1, ...}, ... }
+iso3166_3_country_info = load_iso3166_3_country_info()
+country_groups_map = load_country_groups_map()
+country_groups_names = load_country_groups_names()
+mapping = mappings.get_countries_mapping()
+
+
+country_code_country_group_map = {}
+for cg, cl in country_groups_map.items():
+    for c in cl:
+        if c in country_code_country_group_map:
+            country_code_country_group_map[c].append(cg)
+        else:
+            country_code_country_group_map[c] = [cg]
+
+country_group_processor.add_keywords_from_dict(
+    {k: get_normalized_country_group_name(k) for k in country_groups_map})
+
+country_map = {}
+DELIMITER = "$"
+anchor_code = f"country-code"
+for cname, normed in mapping.items():
+    # Make sure to add a trailing space at the end of the code below.
+    # This guarantees that we isolate the token from symbols, e.g., comma, period, etc.
+    code = f"{anchor_code}{DELIMITER}{normed['code']} "
+    if code in country_map:
+        country_map[code].append(cname)
+    else:
+        country_map[code] = [cname]
+
+# NOTE: Add this since some OCR parsing resulted to l instead of I.
+country_map[f"{anchor_code}{DELIMITER}CIV "].append("Cote d'lvoire")
+
+country_code_processor.add_keywords_from_dict(country_map)
+
+
+REGION_COLORS = {
+    # https://lospec.com/palette-list/dawnbringers-8-color
+    RegionTypes.east_asia_and_pacific: "#55415f",
+    RegionTypes.europe_and_central_asia: "#646964",
+    RegionTypes.latin_america_and_caribbean: "#d77355",
+    RegionTypes.middle_east_and_north_africa: "#508cd7",
+    RegionTypes.north_america: "#64b964",
+    RegionTypes.south_asia: "#e6c86e",
+    RegionTypes.sub_saharan_africa: "#dcf5ff",
+}
+
+
+COUNTRY_REGION_COLORS = {code: REGION_COLORS.get(
+    RegionTypes(standardized_regions_iso3c.get(code))) for code in standardized_regions_iso3c}
+
+
+# {
+#     "CHI": "Channel Islands",
+#     "CSK": "Czechoslovakia",
+#     "PIC": "Pacific Islands",
+#     "SUN": "Soviet Union",
+#     "WBG": "West Bank and Gaza",
+#     "XKX": "Kosovo",
+#     "YUG": "Yougoslavia",
+# }
