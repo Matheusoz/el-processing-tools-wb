@@ -23,4 +23,7 @@ def get_txt_data_dir(corpus_id, text_type):
     elif text_type == 'ORIG':
         path = 'raw'
     else:
-        rais
+        raise ValueError(
+            f'Unexpected `text_type` {text_type}. Accepted values: `CLEAN` and `ORIG`...')
+
+    return get_data_dir(path, 'text', corpus_id)
