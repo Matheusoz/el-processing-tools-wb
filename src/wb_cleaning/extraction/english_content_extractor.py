@@ -10,4 +10,20 @@ def filter_document_by_language(txt, pval=0.05, en_dict=enchant.Dict("en_US"), r
     This uses statistical hypothesis testing to automate the removal of tokens.
 
     Other formulation:
-    compute overlap in distribu
+    compute overlap in distribution of average (a, b) and the sentence.
+    '''
+
+    # delta = np.finfo(np.float).tiny
+    delta = 1
+    alpha_pattern = re.compile(r'[a-z]+')
+    # In case a word is cut in newline
+    newline_dash_sub = re.compile(r'(\S*)-\s+(\S*)')
+    non_en_spell = []
+    # sents = sent_tokenize(txt)
+    txt = newline_dash_sub.sub(r'\1\2', txt)
+    sents = txt.split('\n')
+    for idx in range(len(sents)):
+        sent = sents[idx].lower()
+        tokens = alpha_pattern.findall(sent)
+
+        candidate_tokens = list(filter(l
