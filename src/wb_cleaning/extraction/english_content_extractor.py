@@ -26,4 +26,16 @@ def filter_document_by_language(txt, pval=0.05, en_dict=enchant.Dict("en_US"), r
         sent = sents[idx].lower()
         tokens = alpha_pattern.findall(sent)
 
-        candidate_tokens = list(filter(l
+        candidate_tokens = list(filter(lambda x: len(x) > 1 and x.isalpha(),
+                                       tokens))
+        if not candidate_tokens:
+            continue
+        # Total number of tokens
+        n = len(candidate_tokens)
+        # number of success -> alpha parameter for the beta distribution.
+        a = len(list(filter(en_dict.check, candidate_tokens)))
+        # number of failures -> beta parameter for the beta distribution.
+        b = n - a
+
+        non_en_spell.append(
+            {'s
