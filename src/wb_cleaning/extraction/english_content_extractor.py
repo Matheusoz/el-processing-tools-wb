@@ -38,4 +38,18 @@ def filter_document_by_language(txt, pval=0.05, en_dict=enchant.Dict("en_US"), r
         b = n - a
 
         non_en_spell.append(
-            {'s
+            {'sent': sents[idx], 'clean': sent, 'score': a/n, 'a': a, 'b': b})
+
+    non_en_spell_df = pd.DataFrame(non_en_spell)
+    if non_en_spell_df.empty:
+        return None
+
+    means = non_en_spell_df[['score', 'a', 'b']].mean()
+    rvb = beta(means['a'] + delta, means['b'] + delta)
+    non_en_spell_df['pval'] = non_en_spell_df['score'].map(rvb.cdf)
+
+    if return_df:
+        return non_en_spell_df
+
+    if return_en:
+        filter_set = non_en_spell_df['pva
