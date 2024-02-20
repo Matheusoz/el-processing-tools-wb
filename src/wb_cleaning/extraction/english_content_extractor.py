@@ -52,4 +52,8 @@ def filter_document_by_language(txt, pval=0.05, en_dict=enchant.Dict("en_US"), r
         return non_en_spell_df
 
     if return_en:
-        filter_set = non_en_spell_df['pva
+        filter_set = non_en_spell_df['pval'] > pval
+    else:
+        filter_set = non_en_spell_df['pval'] <= pval
+
+    return '\n'.join(non_en_spell_df[filter_set]['sent'])
