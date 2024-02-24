@@ -33,4 +33,17 @@ def get_keywords_mapping(tags_sheet, src="en", translate_to=None):
         translate_to = []
 
     tags_mapping = tags_sheet.set_index("tag_keyword").T.apply(
-        # If prototypes have "underscores" create a copy with the underscore replaced with 
+        # If prototypes have "underscores" create a copy with the underscore replaced with a space.
+        lambda x: [[i] if "_" not in i else [i, i.replace("_", " ")] for i in x.dropna().tolist()] +
+
+        # Add the tag keyword as well
+        [[x.name, x.name.replace("_", " ")]])
+
+    # Clean up the keywords to remove duplicates.
+    tags_mapping = tags_mapping.map(
+        lambda x: sorted(set([j for i in x for j in i])))
+
+    tags_mapping = tags_mapping.map(
+        lambda x: x + [inflect_engine.plural(i) for i in x if "_" not in i])
+
+  
