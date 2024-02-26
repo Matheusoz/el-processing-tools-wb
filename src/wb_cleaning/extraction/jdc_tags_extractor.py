@@ -46,4 +46,13 @@ def get_keywords_mapping(tags_sheet, src="en", translate_to=None):
     tags_mapping = tags_mapping.map(
         lambda x: x + [inflect_engine.plural(i) for i in x if "_" not in i])
 
-  
+    if translate_to:
+        lang_map = {}
+        for dest in translate_to:
+            # tags_mapping = tags_mapping.map(
+            #     lambda x: x + [translation.translate_shell(i, src=src, dest=dest).get("translated") for i in x if "_" not in i])
+
+            lang_map[dest] = tags_mapping.map(
+                lambda x: translation.translate_list([i for i in x if "_" not in i], src=src, dest=dest, remove_accents=False)).map(
+                    lambda x: x +
+                [inflect_eng
