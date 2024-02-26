@@ -55,4 +55,18 @@ def get_keywords_mapping(tags_sheet, src="en", translate_to=None):
             lang_map[dest] = tags_mapping.map(
                 lambda x: translation.translate_list([i for i in x if "_" not in i], src=src, dest=dest, remove_accents=False)).map(
                     lambda x: x +
-                [inflect_eng
+                [inflect_engine.plural(i) for i in x if "_" not in i]
+            )
+
+        for dest in translate_to:
+            tags_mapping = tags_mapping + lang_map[dest]
+
+    # Clean up the keywords to remove duplicates.
+    tags_mapping = tags_mapping.map(
+        lambda x: sorted(set(filter(lambda i: i, x))))
+
+    return tags_mapping
+
+
+tags_sheet = pd.read_excel(get_data_dir("whitelists", "jdc", "List_filtering_keywords.xlsx"),
+                           header=None, index_col=0).rename(columns={1: "
