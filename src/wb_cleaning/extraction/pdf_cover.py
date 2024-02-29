@@ -85,3 +85,4 @@ class DocumentCover:
         del(self.cover)
 
         self.orig_cover = None
+        self.cover = None
