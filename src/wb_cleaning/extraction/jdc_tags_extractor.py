@@ -69,4 +69,24 @@ def get_keywords_mapping(tags_sheet, src="en", translate_to=None):
 
 
 tags_sheet = pd.read_excel(get_data_dir("whitelists", "jdc", "List_filtering_keywords.xlsx"),
-                           header=None, index_col=0).rename(columns={1: "
+                           header=None, index_col=0).rename(columns={1: "tag_keyword"})
+
+
+tags_mapping = get_keywords_mapping(tags_sheet=tags_sheet)
+if "Kakuma (Kenya)" in tags_mapping:
+    tags_mapping.pop("Kakuma (Kenya)")
+
+
+jdc_tags_processor.add_keywords_from_dict(tags_mapping)
+
+
+def get_jdc_tag_counts(txt):
+    data = []
+
+    for tag, value in Counter(jdc_tags_processor.extract_keywords(txt)).most_common():
+        data.append(dict(
+            tag=tag,
+            count=value
+        ))
+
+    return data
