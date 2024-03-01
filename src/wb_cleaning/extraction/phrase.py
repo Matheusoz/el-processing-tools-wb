@@ -60,4 +60,23 @@ def generate_phrase(phrase_tokens: list, phrase_pos: list, library: str):
     while True and phrase_tokens:
         if not phrase_pos[-1].startswith(noun_form):
             phrase_tokens.pop(-1)
-            phr
+            phrase_pos.pop(-1)
+        else:
+            break
+
+    sub_phrase = []
+    for idx, i in enumerate(phrase_pos[::-1]):
+        if not i.startswith(noun_form):
+            if idx > 1:
+                sub_phrase = PHRASE_SEP.join(phrase_tokens[-idx:])
+            break
+
+    phrases = [PHRASE_SEP.join(phrase_tokens)]
+    if sub_phrase:
+        phrases.append(sub_phrase)
+
+    return phrases if len(phrase_tokens) > 1 else None
+
+
+def get_spacy_phrases(
+        doc: spacy.tokens.doc.Doc
