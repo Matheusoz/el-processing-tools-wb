@@ -39,4 +39,25 @@ def get_nltk_lemma(token, pos):
 
 
 def generate_phrase(phrase_tokens: list, phrase_pos: list, library: str):
-    '''This function generates a valid phrase from a
+    '''This function generates a valid phrase from a list of tokens.
+
+    Additionally, the function removes dangling PHRASE_FILLERS if present.
+
+    library should be either SpaCy or NLTK.
+    '''
+
+    noun_form = 'NOUN' if library == 'SpaCy' else 'NN'
+
+    valid_set = False
+    for phpos in phrase_pos:
+        if phpos.startswith(noun_form):
+            valid_set = True
+            break
+
+    if not valid_set:
+        return None
+
+    while True and phrase_tokens:
+        if not phrase_pos[-1].startswith(noun_form):
+            phrase_tokens.pop(-1)
+            phr
