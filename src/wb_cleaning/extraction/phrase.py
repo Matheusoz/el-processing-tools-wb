@@ -79,4 +79,21 @@ def generate_phrase(phrase_tokens: list, phrase_pos: list, library: str):
 
 
 def get_spacy_phrases(
-        doc: spacy.tokens.doc.Doc
+        doc: spacy.tokens.doc.Doc, min_token_length: int = 3,
+        token_func: Optional[Callable] = None,
+        token_container: Optional[list] = None) -> list:
+    '''This function extracts phrases from a text based on the part-of-speech tag.
+
+    Contiguous tokens with POS tag of NOUN/ADJ and optionally "fillers" in between
+    are considered as phrases.
+
+    The output of this can then be used with Gensim's Phrases model to filter valid phrases.
+    '''
+
+    phrases = []
+    curr_phrase = []
+    curr_pos_set = []
+
+    for token in doc:
+
+        # Co
