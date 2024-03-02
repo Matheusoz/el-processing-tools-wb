@@ -107,4 +107,16 @@ def get_spacy_phrases(
                 continue
 
             if len(curr_phrase) > 1:
-                phrase =
+                phrase = generate_phrase(
+                    curr_phrase, curr_pos_set, library=SPACY_LIB)
+                if phrase:
+                    phrases.extend(phrase)
+
+            curr_phrase = []
+            curr_pos_set = []
+            continue
+
+        if len(curr_phrase) > 0 and token.lower_ in PHRASE_FILLERS:
+            # This will not really work if we only use 'ADJ' and 'NOUN'.
+            # But leaving this here in case we want to capture compound 'PROPN'.
+            curr_phrase.append(tok
