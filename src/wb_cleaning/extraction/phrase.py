@@ -96,4 +96,15 @@ def get_spacy_phrases(
 
     for token in doc:
 
-        # Co
+        # Collect tokens if `token_func` is provided.
+        # This paradigm is used in wb_cleaning.cleaning.cleaner.BaseCleaner.get_tokens_and_phrases.
+        if token_func and token_func(token):
+            token_container.append(
+                token.lemma_ if token.lower_ != 'data' else 'data')
+
+        if not (token.is_alpha and len(token) >= min_token_length):
+            if token.text == '-':
+                continue
+
+            if len(curr_phrase) > 1:
+                phrase =
