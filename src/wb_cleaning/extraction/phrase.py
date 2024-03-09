@@ -132,4 +132,27 @@ def get_spacy_phrases(
                 if phrase:
                     phrases.extend(phrase)
             curr_phrase = []
-   
+            curr_pos_set = []
+
+    return phrases
+
+
+def get_nltk_phrases(text: str, min_token_length: int = 3):
+    '''
+    Phrases extraction using NLTK.
+    '''
+    phrases = []
+    curr_phrase = []
+    curr_pos_set = []
+
+    doc = nltk.pos_tag(nltk.word_tokenize(text))
+
+    for token, pos in doc:
+        NLTK_TAG_MAP.get(pos[0])
+
+        if not (token.isalpha() and len(token) >= min_token_length):
+            if token == '-':
+                continue
+
+            if len(curr_phrase) > 1:
+                phrase 
