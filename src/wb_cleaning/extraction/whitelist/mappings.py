@@ -19,4 +19,8 @@ def get_wb_presidents_mapping():
 
     wb_presidents_mapping = {}
     for _, names in wb_presidents_df.iterrows():
-        names = names.drop
+        names = names.dropna().values
+        for name in names:
+            wb_presidents_mapping[name] = {'code': '', 'normalized': names[0]}
+
+    return wb_presidents_mapping
