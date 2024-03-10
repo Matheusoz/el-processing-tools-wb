@@ -182,4 +182,4 @@ def get_nltk_phrases(text: str, min_token_length: int = 3):
             curr_phrase = []
             curr_pos_set = []
 
-  
+    return phrases
