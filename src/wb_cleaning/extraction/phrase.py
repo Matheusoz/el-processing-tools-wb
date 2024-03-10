@@ -155,4 +155,17 @@ def get_nltk_phrases(text: str, min_token_length: int = 3):
                 continue
 
             if len(curr_phrase) > 1:
-                phrase 
+                phrase = generate_phrase(
+                    curr_phrase, curr_pos_set, library=NLTK_LIB)
+                if phrase:
+                    phrases.extend(phrase)
+
+            curr_phrase = []
+            curr_pos_set = []
+            continue
+
+        if len(curr_phrase) > 0 and token.lower() in PHRASE_FILLERS:
+            # This will not really work if we only use 'JJ' and 'NN'.
+            # But leaving this here in case we want to capture compound 'PROPN'.
+            curr_phrase.append(token)
+            curr_pos_set.append(pos)
