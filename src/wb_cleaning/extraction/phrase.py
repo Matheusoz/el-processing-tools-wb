@@ -169,3 +169,17 @@ def get_nltk_phrases(text: str, min_token_length: int = 3):
             # But leaving this here in case we want to capture compound 'PROPN'.
             curr_phrase.append(token)
             curr_pos_set.append(pos)
+        elif pos in NLTK_PHRASE_POS:
+            curr_phrase.append(
+                get_nltk_lemma(token, pos) if token.lower() != 'data' else 'data')
+            curr_pos_set.append(pos)
+        else:
+            if len(curr_phrase) > 1:
+                phrase = generate_phrase(
+                    curr_phrase, curr_pos_set, library=NLTK_LIB)
+                if phrase:
+                    phrases.extend(phrase)
+            curr_phrase = []
+            curr_pos_set = []
+
+  
