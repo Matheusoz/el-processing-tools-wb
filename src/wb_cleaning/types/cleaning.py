@@ -1,3 +1,25 @@
 '''
 This module contains the type definitions for the configuration parameters
-of the clean
+of the cleaning pipeline.
+
+This typed data structure will be used in the implementation of the API using
+FastAPI.
+'''
+
+import enum
+import json
+from typing import List, Any
+from pydantic import BaseModel, Field, validator
+from wb_cleaning.utils.scripts import generate_model_hash
+
+
+class SpaCyPOSTag(str, enum.Enum):
+    '''Enum of SpaCy part-of-speech tags.
+    '''
+    # SpaCy pos tags
+    adjective = "ADJ"
+    adposition = "ADP"
+    adverb = "ADV"
+    auxiliary = "AUX"
+    conjunction = "CONJ"
+    coordinating_co
