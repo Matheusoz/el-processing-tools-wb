@@ -22,4 +22,26 @@ class SpaCyPOSTag(str, enum.Enum):
     adverb = "ADV"
     auxiliary = "AUX"
     conjunction = "CONJ"
-    coordinating_co
+    coordinating_conjunction = "CCONJ"
+    determiner = "DET"
+    interjection = "INTJ"
+    noun = "NOUN"
+    numeral = "NUM"
+    particle = "PART"
+    pronoun = "PRON"
+    proper_noun = "PROPN"
+    punctuation = "PUNCT"
+    subordinating_conjunction = "SCONJ"
+    symbol = "SYM"
+    verb = "VERB"
+    other = "X"
+    space = "SPACE"
+
+    class Config:
+        use_enum_values = True
+
+
+class Entity(str, enum.Enum):
+    '''Enum of SpaCy entities.
+    '''
+    cardinal = "CARDINAL"           # Numerals that
