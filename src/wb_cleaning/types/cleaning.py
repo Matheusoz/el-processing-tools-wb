@@ -44,4 +44,11 @@ class SpaCyPOSTag(str, enum.Enum):
 class Entity(str, enum.Enum):
     '''Enum of SpaCy entities.
     '''
-    cardinal = "CARDINAL"           # Numerals that
+    cardinal = "CARDINAL"           # Numerals that do not fall under another type.
+    time = "TIME"                   # Times smaller than a day.
+    percent = "PERCENT"             # Percentage, including ”%“.
+    money = "MONEY"                 # Monetary values, including unit.
+    date = "DATE"                   # Absolute or relative dates or periods.
+    quantity = "QUANTITY"           # Measurements, as of weight or distance.
+    ordinal = "ORDINAL"             # “first”, “second”, etc.
+    language = "LANGUAGE"           # Any named langua
