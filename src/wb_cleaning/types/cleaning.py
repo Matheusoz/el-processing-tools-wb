@@ -51,4 +51,15 @@ class Entity(str, enum.Enum):
     date = "DATE"                   # Absolute or relative dates or periods.
     quantity = "QUANTITY"           # Measurements, as of weight or distance.
     ordinal = "ORDINAL"             # “first”, “second”, etc.
-    language = "LANGUAGE"           # Any named langua
+    language = "LANGUAGE"           # Any named language.
+    law = "LAW"                     # Named documents made into laws.
+    work_of_art = "WORK_OF_ART"     # Titles of books, songs, etc.
+
+    # Named hurricanes, battles, wars, sports events, etc.
+    event = "EVENT"
+    # Objects, vehicles, foods, etc. (Not services.)
+    product = "PRODUCT"
+    # Non-GPE locations, mountain ranges, bodies of water.
+    loc = "LOC"
+    gpe = "GPE"                     # Countries, cities, states.
+    org = "ORG"                  
