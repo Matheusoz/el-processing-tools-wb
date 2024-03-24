@@ -122,4 +122,14 @@ class CleanerParams(BaseModel):
 
     languages: List[LanguageFilter] = Field(
         [LanguageFilter(lang='en', score=0.98)],
-        description="List of
+        description="List of languages code defined in the `pyenchant` library that will be considered as valid. The `filter_language` flag must be set to `True` before this takes effect.")
+
+    max_token_length: int = Field(
+        50, description="Maximum character limit for a token to be considered as valid.")
+
+    min_token_length: int = Field(
+        3, ge=2, description="Minimum character limit for a token to be considered as valid.")
+
+    pos_tags: List[SpaCyPOSTag] = Field(
+        ...,
+   
