@@ -114,4 +114,12 @@ class CleanerParams(BaseModel):
     '''Definition of parameters for the cleaner pipeline.
     '''
     entities: List[Entity] = Field(
-        .
+        ...,
+        description="List of SpaCy entity types to be `excluded` in the cleaned text. The `exclude_entity_types` flag must be set to `True` before this takes effect.")
+
+    fragmented_token_max_len: int = Field(
+        5, description="Maximum number of tokens to consider for fixing fragmented lines of text. The `fix_fragmented_tokens` flag must be set to `True` before this takes effect.")
+
+    languages: List[LanguageFilter] = Field(
+        [LanguageFilter(lang='en', score=0.98)],
+        description="List of
