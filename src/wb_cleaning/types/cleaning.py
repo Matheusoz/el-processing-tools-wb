@@ -62,4 +62,21 @@ class Entity(str, enum.Enum):
     # Non-GPE locations, mountain ranges, bodies of water.
     loc = "LOC"
     gpe = "GPE"                     # Countries, cities, states.
-    org = "ORG"                  
+    org = "ORG"                     # Companies, agencies, institutions, etc.
+    # Buildings, airports, highways, bridges, etc.
+    fac = "FAC"
+    # Nationalities or religious or political groups.
+    norp = "NORP"
+    person = "PERSON"               # People, including fictional.
+
+    class Config:
+        use_enum_values = True
+
+
+class LanguageFilter(BaseModel):
+    """Data type for language detection.
+    """
+    lang: str = Field(
+        ...,
+        description="Language code as defined in enchant library.")
+    score: float =
