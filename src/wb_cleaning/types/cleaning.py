@@ -97,4 +97,21 @@ class LanguageFilter(BaseModel):
 
 
 class CleanerFlags(BaseModel):
-    """Container of flags that co
+    """Container of flags that control the
+    behavior of the cleaning pipeline.
+    """
+    correct_misspelling: bool = True
+    exclude_entity_types: bool = True
+    expand_acronyms: bool = True
+    filter_stopwords: bool = True
+    filter_language: bool = True
+    fix_fragmented_tokens: bool = True
+    include_pos_tags: bool = True
+    tag_whitelisted_entities: bool = True
+
+
+class CleanerParams(BaseModel):
+    '''Definition of parameters for the cleaner pipeline.
+    '''
+    entities: List[Entity] = Field(
+        .
