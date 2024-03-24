@@ -79,4 +79,22 @@ class LanguageFilter(BaseModel):
     lang: str = Field(
         ...,
         description="Language code as defined in enchant library.")
-    score: float =
+    score: float = Field(
+        ...,
+        description="Threshold score for a detected language to be considered as significant."
+    )
+
+    def __gt__(self, other):
+        # Add this so that we could sort this class later.
+        return self.lang > other.lang
+
+    # def __eq__(self, other):
+    #     return self.lang == other.lang
+
+    def __lt__(self, other):
+        # Add this so that we could sort this class later.
+        return self.lang < other.lang
+
+
+class CleanerFlags(BaseModel):
+    """Container of flags that co
