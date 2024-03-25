@@ -132,4 +132,19 @@ class CleanerParams(BaseModel):
 
     pos_tags: List[SpaCyPOSTag] = Field(
         ...,
-   
+        description="List of SpaCy part-of-speech tags to be `included` in the cleaned text. The `include_pos_tags` flag must be set to `True` before this takes effect.")
+
+    @validator('entities')
+    def sort_entities(cls, v):
+        return sorted(v)
+
+    @validator('languages')
+    def sort_languages(cls, v):
+        return sorted(v)
+
+    @validator('pos_tags')
+    def sort_pos_tags(cls, v):
+        return sorted(v)
+
+    @validator('max_token_length', pre=True, always=True)
+    def max_token_length_greater_than_min
