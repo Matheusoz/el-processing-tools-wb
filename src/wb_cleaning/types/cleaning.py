@@ -147,4 +147,14 @@ class CleanerParams(BaseModel):
         return sorted(v)
 
     @validator('max_token_length', pre=True, always=True)
-    def max_token_length_greater_than_min
+    def max_token_length_greater_than_min(cls, v, values, **kwargs):
+        if 'min_token_length' in values and v <= values['min_token_length']:
+            raise ValueError(
+                '`max_token_length` must be greater than `min_token_length`!')
+        return v
+
+    @validator('min_token_length', pre=True, always=True)
+    def min_token_length_less_than_max(cls, v, values, **kwargs):
+        if 'max_token_length' in values and v >= values['max_token_length']:
+            raise ValueError(
+                '`min_token_length
