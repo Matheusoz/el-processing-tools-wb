@@ -157,4 +157,17 @@ class CleanerParams(BaseModel):
     def min_token_length_less_than_max(cls, v, values, **kwargs):
         if 'max_token_length' in values and v >= values['max_token_length']:
             raise ValueError(
-                '`min_token_length
+                '`min_token_length` must be less than `max_token_length`!')
+        return v
+
+
+class Cleaner(BaseModel):
+    """Main cleaner configuration body that contains the specification
+    for the flags and parameters that will be used in the cleaning process.
+    """
+    cleaner_config_id: str = Field(
+        '', description="Cleaner configuration id derived from the combination of the parameters.")
+    flags: CleanerFlags = CleanerFlags(
+        expand_acronyms=True,
+        correct_misspelling=True,
+        fil
