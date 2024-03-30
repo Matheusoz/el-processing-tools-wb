@@ -170,4 +170,19 @@ class Cleaner(BaseModel):
     flags: CleanerFlags = CleanerFlags(
         expand_acronyms=True,
         correct_misspelling=True,
-        fil
+        filter_stopwords=True,
+        fix_fragmented_tokens=True,
+        filter_language=True,
+        include_pos_tags=True,
+        exclude_entity_types=True,
+        tag_whitelisted_entities=True,
+    )
+    params: CleanerParams = CleanerParams(
+        pos_tags=[SpaCyPOSTag.noun, SpaCyPOSTag.adverb,
+                  SpaCyPOSTag.verb, SpaCyPOSTag.adjective],
+        entities=[
+            Entity.cardinal,
+            Entity.money,
+            Entity.time,
+            Entity.percent],
+        languages=[LanguageFi
