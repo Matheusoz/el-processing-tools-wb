@@ -185,4 +185,22 @@ class Cleaner(BaseModel):
             Entity.money,
             Entity.time,
             Entity.percent],
-        languages=[LanguageFi
+        languages=[LanguageFilter(
+            lang='en', score=0.98)]
+    )
+
+    def __init__(self, **data: Any) -> None:
+        temp_data = dict(data)
+
+        if 'cleaner_config_id' in temp_data:
+            # Remove `cleaner_config_id` if exists since it will be
+            # computed as unique id from other fields.
+            temp_data.pop('cleaner_config_id')
+
+        super().__init__(**temp_data)
+
+        self.cleaner_config_id = generate_model_hash(json.loads(self.json()))
+
+
+class RespellerInferCorrectWord(BaseModel):
+    sim_thresh: fl
