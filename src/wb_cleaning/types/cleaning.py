@@ -203,4 +203,15 @@ class Cleaner(BaseModel):
 
 
 class RespellerInferCorrectWord(BaseModel):
-    sim_thresh: fl
+    sim_thresh: float = Field(0.0, ge=0, le=1, description="")
+    print_log: bool = Field(False, description="")
+    min_len: int = Field(3, description="")
+    use_suggest_score: bool = Field(True, description="")
+
+
+class RespellerInferCorrectWords(BaseModel):
+    infer_correct_word_params: RespellerInferCorrectWord = Field(
+        RespellerInferCorrectWord(),
+        description="Set of parameters for the `infer_correct_word` method.")
+    return_tokens_as_list: bool = Field(
+        True, description="Flag that con
