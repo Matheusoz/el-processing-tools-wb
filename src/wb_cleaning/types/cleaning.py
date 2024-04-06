@@ -238,4 +238,20 @@ class Respeller(BaseModel):
 
         super().__init__(**temp_data)
 
-        self.respeller_config_id = genera
+        self.respeller_config_id = generate_model_hash(json.loads(self.json()))
+
+
+class SpellChecker(BaseModel):
+    spell_checker_config_id: str = Field(
+        '', description="SpellChecker configuration id derived from the combination of the parameters.")
+    lang: str = 'en_US'
+    text: Any = None
+    tokenize: Any = None
+    chunkers: Any = None
+    filters: Any = None
+
+    def __init__(self, **data: Any) -> None:
+        temp_data = dict(data)
+
+        if 'spell_checker_config_id' in temp_data:
+            # Remove `sp
