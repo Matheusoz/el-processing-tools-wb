@@ -224,4 +224,18 @@ class Respeller(BaseModel):
     spell_threshold: float = Field(0.25)
     allow_proper: bool = Field(True)
     spell_cache: dict = Field(None)
-    infer_correct_words: RespellerInferCorrectWord
+    infer_correct_words: RespellerInferCorrectWords = Field(
+        RespellerInferCorrectWords(),
+        description="Set of parameters for the `infer_correct_words` method.")
+
+    def __init__(self, **data: Any) -> None:
+        temp_data = dict(data)
+
+        if 'respeller_config_id' in temp_data:
+            # Remove `respeller_config_id` if exists since it will be
+            # computed as unique id from other fields.
+            temp_data.pop('respeller_config_id')
+
+        super().__init__(**temp_data)
+
+        self.respeller_config_id = genera
