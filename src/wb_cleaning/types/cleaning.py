@@ -214,4 +214,14 @@ class RespellerInferCorrectWords(BaseModel):
         RespellerInferCorrectWord(),
         description="Set of parameters for the `infer_correct_word` method.")
     return_tokens_as_list: bool = Field(
-        True, description="Flag that con
+        True, description="Flag that controls whether the returned value will be a list of tokens or concatenation of the tokens as a single space separated string.")
+
+
+class Respeller(BaseModel):
+    respeller_config_id: str = Field(
+        '', description="Respeller configuration id derived from the combination of the parameters.")
+    dictionary_file: str = Field(None)
+    spell_threshold: float = Field(0.25)
+    allow_proper: bool = Field(True)
+    spell_cache: dict = Field(None)
+    infer_correct_words: RespellerInferCorrectWord
