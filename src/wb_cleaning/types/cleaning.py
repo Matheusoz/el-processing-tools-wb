@@ -269,4 +269,19 @@ class CleaningConfig(BaseModel):
         '', description="Configuration id derived from the combination of the parameters.")
     cleaner: Cleaner = Field(
         Cleaner(),
-    
+        description="Parameters for the cleaning pipeline."
+    )
+    respeller: Respeller = Field(
+        Respeller(),
+        description="Parameters for the respelling algorithm.")
+    spell_checker: SpellChecker = Field(
+        SpellChecker(),
+        description="Parameters for the spell checking algorithm.")
+    meta: Any = Field(
+        None, description="Metadata that may provide additional information about the cleaner."
+    )
+
+    def __init__(self, **data: Any) -> None:
+        temp_data = dict(data)
+
+        if '
