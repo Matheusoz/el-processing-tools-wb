@@ -631,3 +631,271 @@ class WBMajorDocTypes(WBEnum):
 class MajorDocTypes(WBEnum):
     '''
     Curated list of major document types.
+    Document types are adapted from various sources as needed.
+    '''
+    EMPTY = ""
+
+    # From ADB
+    # evaluation_document = "Evaluation Document"
+
+    # From WB docs API curated list
+    board_documents = "Board Documents"
+    # country_focus = "Country Focus"
+    # economic_and_sector_work = "Economic and Sector Work"
+    project_documents = "Project Documents"
+    # publications_and_research = "Publications and Research"
+    publications_and_reports = "Publications and Reports"
+
+    @ classmethod
+    def clean(cls, value):
+
+        mappings = {
+            "Publication": "Publications and Research",
+            "Publications": "Publications and Research",
+            "Publications & Research": "Publications and Research",
+            "Publications &amp; Research": "Publications and Research",
+
+            "Economic & Sector Work": "Economic and Sector Work",
+            "Economic &amp; Sector Work": "Economic and Sector Work",
+
+            "Project Document": "Project Documents",
+            None: "",
+        }
+
+        value = mappings.get(value, value)
+
+        # Unification of major document types to Publications and Reports
+        other_types = {"Evaluation Document", "Country Focus",
+                       "Economic and Sector Work", "Publications and Research"}
+
+        if value in other_types:
+            value = "Publications and Reports"
+
+        return value
+
+
+class RegionTypes(WBEnum):
+    '''
+    Curated list of regions.
+    The list is based on the data/whitelists/countries/codelist.xlsx file.
+    '''
+    EMPTY = ""
+
+    east_asia_and_pacific = 'East Asia & Pacific'
+    europe_and_central_asia = 'Europe & Central Asia'
+    latin_america_and_caribbean = 'Latin America & Caribbean'
+    middle_east_and_north_africa = 'Middle East & North Africa'
+    north_america = 'North America'
+    south_asia = 'South Asia'
+    sub_saharan_africa = 'Sub-Saharan Africa'
+
+    @ classmethod
+    def clean(cls, value):
+        value = value.strip().lower()
+
+        mappings = {
+            "east asia and pacific": "East Asia & Pacific",
+            "europe and central asia": "Europe & Central Asia",
+            "latin america and caribbean": "Latin America & Caribbean",
+            "middle east and north africa": "Middle East & North Africa",
+            "sub saharan africa": "Sub-Saharan Africa",
+            "subsaharan africa": "Sub-Saharan Africa",
+            None: "",
+        }
+
+        value = mappings.get(value, value)
+        value = value.title()
+
+        return value
+
+
+class WBTopics(enum.Enum):
+    '''Curated list of topics.
+
+    NOTE: What is this??? https://vocabulary.worldbank.org/PoolParty/sparql/taxonomy
+
+    PREFIX skos:<http://www.w3.org/2004/02/skos/core#>
+    SELECT DISTINCT ?Concept ?prefLabel
+    WHERE
+    { ?Concept ?x skos:Concept .
+    { ?Concept skos:prefLabel ?prefLabel . FILTER (regex(str(?prefLabel), '.*', 'i'))  }
+    } ORDER BY ?prefLabel
+
+
+    PREFIX skos:<http://www.w3.org/2004/02/skos/core#>
+    SELECT DISTINCT ?Concept ?altLabel
+    WHERE
+    { ?Concept ?x skos:Concept .
+    { ?Concept skos:altLabel ?altLabel . FILTER (regex(str(?altLabel), '.*', 'i'))  }
+    } ORDER BY ?altLabel
+
+
+    delimiter = ","
+
+    TODO: For further review
+
+    d = d.replace("Health, Nutrition and Population",
+                "Health; Nutrition and Population")
+
+    {'': 68000}
+
+    '''
+    # Manually defined
+    EMPTY = ""
+
+    # From WB docs API curated list
+    agriculture = "Agriculture"
+    communities_and_human_settlements = "Communities and Human Settlements"
+    conflict_and_development = "Conflict and Development"
+    culture_and_development = "Culture and Development"
+    education = "Education"
+    energy = "Energy"
+    environment = "Environment"
+    finance_and_financial_sector_development = "Finance and Financial Sector Development"
+    gender = "Gender"
+    governance = "Governance"
+    health_nutrition_and_population = "Health; Nutrition and Population"
+    industry = "Industry"
+    informatics = "Informatics"
+    information_and_communication_technologies = "Information and Communication Technologies"
+    infrastructure_economics_and_finance = "Infrastructure Economics and Finance"
+    # international_economics_trade = "International Economics & Trade"
+    international_economics_and_trade = "International Economics and Trade"
+    law_and_development = "Law and Development"
+    macroeconomics_and_economic_growth = "Macroeconomics and Economic Growth"
+    poverty_reduction = "Poverty Reduction"
+    private_sector_development = "Private Sector Development"
+    public_sector_development = "Public Sector Development"
+    rural_development = "Rural Development"
+    science_and_technology_development = "Science and Technology Development"
+    social_development = "Social Development"
+    social_protections_and_labor = "Social Protections and Labor"
+    transport = "Transport"
+    urban_development = "Urban Development"
+    water_resources = "Water Resources"
+    water_supply_and_sanitation = "Water Supply and Sanitation"
+
+    @ classmethod
+    def clean(cls, value):
+
+        mappings = {
+            "Health, Nutrition and Population": "Health; Nutrition and Population",
+            "International Economics & Trade": "International Economics and Trade",
+            None: "",
+        }
+
+        value = mappings.get(value, value)
+
+        return value
+
+
+# class WBSubTopics(enum.Enum):
+#     '''Curated list of sub-topics.
+#     '''
+#     access_of_poor_to_social_services = "Access of Poor to Social Services"
+#     agricultural_growth_and_rural_development = "Agricultural Growth and Rural Development"
+#     bankruptcy_and_resolution_of_financial_distress = "Bankruptcy and Resolution of Financial Distress"
+#     banks_banking_reform = "Banks & Banking Reform"
+#     brown_issues_and_health = "Brown Issues and Health"
+#     business_cycles_and_stabilization_policies = "Business Cycles and Stabilization Policies"
+#     climate_change_mitigation_and_green_house_gases = "Climate Change Mitigation and Green House Gases"
+#     climate_change_and_agriculture = "Climate Change and Agriculture"
+#     coastal_and_marine_resources = "Coastal and Marine Resources"
+#     common_carriers_industry = "Common Carriers Industry"
+#     communicable_diseases = "Communicable Diseases"
+#     construction_industry = "Construction Industry"
+#     crops_and_crop_management_systems = "Crops and Crop Management Systems"
+#     de_facto_governments = "De Facto Governments"
+#     debt_markets = "Debt Markets"
+#     democratic_government = "Democratic Government"
+#     disability = "Disability"
+#     disease_control_prevention = "Disease Control & Prevention"
+#     economic_adjustment_and_lending = "Economic Adjustment and Lending"
+#     economic_assistance = "Economic Assistance"
+#     economic_growth = "Economic Growth"
+#     economic_theory_research = "Economic Theory & Research"
+#     economics_and_finance_of_public_institution_development = "Economics and Finance of Public Institution Development"
+#     education_for_all = "Education For All"
+#     educational_institutions_facilities = "Educational Institutions & Facilities"
+#     educational_sciences = "Educational Sciences"
+#     effective_schools_and_teachers = "Effective Schools and Teachers"
+#     energy_demand = "Energy Demand"
+#     energy_policies_economics = "Energy Policies & Economics"
+#     energy_and_environment = "Energy and Environment"
+#     energy_and_mining = "Energy and Mining"
+#     energy_and_natural_resources = "Energy and Natural Resources"
+#     engineering = "Engineering"
+#     environmental_engineering = "Environmental Engineering"
+#     environmental_protection = "Environmental Protection"
+#     financial_sector_policy = "Financial Sector Policy"
+#     food_beverage_industry = "Food & Beverage Industry"
+#     food_security = "Food Security"
+#     gender_and_development = "Gender and Development"
+#     general_manufacturing = "General Manufacturing"
+#     global_environment = "Global Environment"
+#     government_policies = "Government Policies"
+#     health_care_services_industry = "Health Care Services Industry"
+#     health_service_management_and_delivery = "Health Service Management and Delivery"
+#     health_and_sanitation = "Health and Sanitation"
+#     hydrology = "Hydrology"
+#     industrial_economics = "Industrial Economics"
+#     inequality = "Inequality"
+#     inflation = "Inflation"
+#     information_technology = "Information Technology"
+#     intelligent_transport_systems = "Intelligent Transport Systems"
+#     international_trade_and_trade_rules = "International Trade and Trade Rules"
+#     judicial_system_reform = "Judicial System Reform"
+#     labor_markets = "Labor Markets"
+#     legal_products = "Legal Products"
+#     legal_reform = "Legal Reform"
+#     legislation = "Legislation"
+#     livestock_and_animal_husbandry = "Livestock and Animal Husbandry"
+#     macro_fiscal_policy = "Macro-Fiscal Policy"
+#     macroeconomic_management = "Macroeconomic Management"
+#     marketing = "Marketing"
+#     microfinance = "Microfinance"
+#     municipal_management_and_reform = "Municipal Management and Reform"
+#     national_governance = "National Governance"
+#     natural_disasters = "Natural Disasters"
+#     nutrition = "Nutrition"
+#     plastics_rubber_industry = "Plastics & Rubber Industry"
+#     pollution_management_control = "Pollution Management & Control"
+#     post_conflict_reconstruction = "Post Conflict Reconstruction"
+#     private_sector_development_law = "Private Sector Development Law"
+#     private_sector_economics = "Private Sector Economics"
+#     public_finance_decentralization_and_poverty_reduction = "Public Finance Decentralization and Poverty Reduction"
+#     public_health_promotion = "Public Health Promotion"
+#     public_sector_administrative_civil_service_reform = "Public Sector Administrative & Civil Service Reform"
+#     public_sector_administrative_and_civil_service_reform = "Public Sector Administrative and Civil Service Reform"
+#     public_sector_corruption_anticorruption_measures = "Public Sector Corruption & Anticorruption Measures"
+#     public_sector_economics = "Public Sector Economics"
+#     pulp_paper_industry = "Pulp & Paper Industry"
+#     regulatory_regimes = "Regulatory Regimes"
+#     renewable_energy = "Renewable Energy"
+#     roads_highways = "Roads & Highways"
+#     rural_labor_markets = "Rural Labor Markets"
+#     rural_settlements = "Rural Settlements"
+#     rural_and_renewable_energy = "Rural and Renewable Energy"
+#     sanitary_environmental_engineering = "Sanitary Environmental Engineering"
+#     sanitation_and_sewerage = "Sanitation and Sewerage"
+#     services_transfers_to_poor = "Services & Transfers to Poor"
+#     small_private_water_supply_providers = "Small Private Water Supply Providers"
+#     social_assessment = "Social Assessment"
+#     social_policy = "Social Policy"
+#     state_owned_enterprise_reform = "State Owned Enterprise Reform"
+#     town_water_supply_and_sanitation = "Town Water Supply and Sanitation"
+#     transport_services = "Transport Services"
+#     urban_governance_and_management = "Urban Governance and Management"
+#     urban_housing = "Urban Housing"
+#     urban_housing_and_land_settlements = "Urban Housing and Land Settlements"
+#     water_supply_and_sanitation_economics = "Water Supply and Sanitation Economics"
+#     water_and_food_supply = "Water and Food Supply"
+#     water_and_human_health = "Water and Human Health"
+#     youth_and_governance = "Youth and Governance"
+
+
+WBGeographicRegions.delimiter = "|"
+WBAdminRegions.delimiter = ","
+WBDocTypes.delimiter = ","
+WBMajorDocTypes.delimiter = ","
+WBTopics.delimiter = ","
