@@ -9,4 +9,4 @@ class HashableDict(dict):
     '''
 
     def __hash__(self):
-        return 
+        return hash(generate_model_hash(config=self))
