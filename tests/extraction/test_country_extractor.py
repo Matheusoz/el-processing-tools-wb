@@ -39,4 +39,25 @@ class TestCountryExtractor:
             errors.append("load_country_groups_map:: country group not found")
 
         error_string = "\n".join(errors)
-        assert not error_stri
+        assert not error_string, f"errors in: \n{error_string}"
+
+    def test_get_country_code_from_name(self):
+        name = "Philippines"
+        expected = "PHL"
+
+        returns = ce.get_country_code_from_name(name)
+
+        assert expected == returns
+
+    def test_replace_country_group_names(self):
+        txt = "countries in asean"
+        expected = "countries in ASEAN"
+
+        returns = ce.replace_country_group_names(txt)
+
+        assert expected == returns
+
+    def test_replace_countries(self):
+        txt = "countries in philippines"
+
+        #
