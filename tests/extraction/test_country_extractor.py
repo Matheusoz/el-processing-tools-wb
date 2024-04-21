@@ -26,4 +26,17 @@ class TestCountryExtractor:
         assert isinstance(ce.load_iso3166_3_country_info(), dict)
 
     def test_load_country_groups_map(self):
-        expected = ['BRN',
+        expected = ['BRN', 'KHM', 'IDN', 'LAO',
+                    'MYS', 'MMR', 'PHL', 'SGP', 'THA', 'VNM']
+        country_groups = ce.load_country_groups_map()
+
+        errors = []
+
+        if not isinstance(country_groups, dict):
+            errors.append("load_country_groups_map:: return not dict instance")
+
+        if expected != country_groups.get("ASEAN"):
+            errors.append("load_country_groups_map:: country group not found")
+
+        error_string = "\n".join(errors)
+        assert not error_stri
