@@ -90,4 +90,10 @@ class TestCountryExtractor:
         assert expected == returns
 
     def test_get_region_countries_not_sorted(self):
-        region = ["So
+        region = ["South Asia"]
+        expected = ['Maldives', 'Bangladesh', 'Sri Lanka', 'Afghanistan', 'Bhutan',
+                    'India', 'Nepal', 'Pakistan', ]
+
+        returns = ce.get_region_countries(region)
+
+        assert sorted(expected) == returns
