@@ -29,4 +29,19 @@ class TestTranslation:
 
         assert expected == returns
 
-    def test_translat
+    def test_translate_shell_fr(self):
+        txt = "refugee"
+        expected = "réfugié"
+
+        result = tr.translate_shell(txt, src="auto", dest="fr")
+        returns = result["translated"]
+
+        assert expected == returns
+
+    def test_translate_list(self):
+        txt_list = ["extrême", "pauvreté", "partagé", "prospérité"]
+        expected = ["extreme", "poverty", "shared", "prosperity"]
+
+        returns = tr.translate_list(txt_list, src="auto", dest="en")
+
+        assert expected == returns
